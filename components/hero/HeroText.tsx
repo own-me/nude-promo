@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const HeroTextContainer = styled.div`
     max-width: 600px;
+    margin-bottom: 20px;
 `;
 
 const MainText = styled.span`
