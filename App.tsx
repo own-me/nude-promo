@@ -1,12 +1,13 @@
 import React from "react";
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import TopNav from "./components/TopNav";
 
 function App() {
     return (
         <div>
-            <h1>Own Me</h1>
+            <TopNav />
         </div>
     );
 };
 
-ReactDOM.render(<App />, document.getElementById('react-container'))
+ReactDOM.render(<App />, document.getElementById('react-container'));
