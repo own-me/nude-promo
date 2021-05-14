@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import "@fontsource/rock-salt";
 import TopNav from "./components/TopNav";
+import AppLayout from "./components/AppLayout";
 
 function App() {
     return (
-        <div>
+        <AppLayout>
             <TopNav />
-        </div>
+        </AppLayout>
     );
 };
 
