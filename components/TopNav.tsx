@@ -6,10 +6,27 @@ const TopNavContainer = styled.div`
     height: 50px;
 `;
 
+const BrandContainer = styled.div`
+
+`;
+
+const BrandText = styled.span`
+    font-family: Rock Salt, Open Sans;
+    font-size: 50px;
+    color: #D842FE;
+`;
+
+const BrandLogo = styled.img`
+
+`;
+
 export default function TopNav() {
     return (
         <TopNavContainer>
-
+            <BrandContainer>
+                <BrandText>Own Me</BrandText>
+                <BrandLogo src="" />
+            </BrandContainer>
         </TopNavContainer>
     );
 };
