@@ -4,7 +4,6 @@ import logo from "../media/logo.svg";
 
 const TopNavContainer = styled.div`
     width: 100%;
-    height: 50px;
 `;
 
 const BrandContainer = styled.div`
