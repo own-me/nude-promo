@@ -24,10 +24,10 @@ interface socialLink {
     url: string
 };
 
-export const socialLinks: Array<socialLink> = [
-    {
+export const socialLinks: Record<string, socialLink> = {
+    discord: {
         key: "discord",
         title: "Discord",
         url: "https://discord.gg/Ww5nckNGpS"
     }
-];
+};
