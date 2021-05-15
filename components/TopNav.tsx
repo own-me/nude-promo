@@ -20,6 +20,7 @@ const NavLinksContainer = styled.div`
     align-items: center;
     font-family: Poppins, Open Sans;
     font-size: 25px;
+    color: #2A2825;
 `;
 
 const NavLink = styled.span`

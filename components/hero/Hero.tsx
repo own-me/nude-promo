@@ -4,7 +4,7 @@ import HeroButton from "./HeroButton";
 import HeroText from "./HeroText";
 
 const HeroContainer = styled.div`
-    padding: 50px 40px;
+    margin: 200px 50px 50px; 0px;
 `;
 
 export default function Hero() {

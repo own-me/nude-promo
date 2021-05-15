@@ -20,6 +20,7 @@
   "dependencies": {
     "@fontsource/poppins": "^4.3.0",
     "@fontsource/rock-salt": "^4.3.0",
+    "@fontsource/shadows-into-light": "^4.3.0",
     "@fontsource/yeseva-one": "^4.3.0",
     "@types/styled-components": "^5.1.9",
     "react": "17.0.2",
