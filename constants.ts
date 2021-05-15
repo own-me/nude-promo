@@ -1,9 +1,9 @@
-interface navLink {
+interface navItem {
     key: string,
     title: string
 };
 
-const navLinks: Array<navLink> = [
+export const navItems: Array<navItem> = [
     {
         key: "ourDream",
         title: "Our Dream"
@@ -15,5 +15,19 @@ const navLinks: Array<navLink> = [
     {
         key: "$nude",
         title: "$NUDE"
+    }
+];
+
+interface socialLink {
+    key: string,
+    title: string,
+    url: string
+};
+
+export const socialLinks: Array<socialLink> = [
+    {
+        key: "discord",
+        title: "Discord",
+        url: "https://discord.gg/Ww5nckNGpS"
     }
 ];

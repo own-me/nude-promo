@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/the-digital-labs/own-me-promo#readme",
   "dependencies": {
+    "@fontsource/poppins": "^4.3.0",
     "@fontsource/rock-salt": "^4.3.0",
     "@fontsource/yeseva-one": "^4.3.0",
     "@types/styled-components": "^5.1.9",

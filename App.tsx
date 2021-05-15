@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import "@fontsource/rock-salt";
-import "@fontsource/yeseva-one"
+import "@fontsource/yeseva-one";
+import "@fontsource/poppins";
 import TopNav from "./components/TopNav";
 import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";

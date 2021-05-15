@@ -15,7 +15,7 @@ const Button = styled.button`
 export default function HeroButton() {
     return (
         <Button>
-            Learn More
+            Join our Discord
         </Button>
     );
 };
