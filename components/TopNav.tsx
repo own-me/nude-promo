@@ -26,6 +26,11 @@ const NavLinksContainer = styled.div`
 const NavLink = styled.span`
     margin: 0 20px;
     cursor: pointer;
+    border-bottom: 2px transparent solid;
+
+    :hover {
+        border-bottom: 2px #d6a8ff solid;
+    }
 `;
 
 export default function TopNav() {
