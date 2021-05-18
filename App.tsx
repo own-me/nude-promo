@@ -7,13 +7,17 @@ import "@fontsource/shadows-into-light";
 import TopNav from "./components/TopNav";
 import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
+import Footer from "./components/Footer";
 
 function App() {
     return (
-        <AppLayout>
-            <TopNav />
-            <Hero />
-        </AppLayout>
+        <>
+            <AppLayout>
+                <TopNav />
+                <Hero />
+            </AppLayout>
+            <Footer />
+        </>
     );
 };
 
