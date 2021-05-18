@@ -6,6 +6,7 @@ import linkedinIcon from "../media/icons/linkedin/negative.svg";
 import mediumIcon from "../media/icons/medium/negative.svg";
 import telegramIcon from "../media/icons/telegram/negative.svg";
 import twitterIcon from "../media/icons/twitter/negative.svg";
+import lolipop from "../media/lolipop.svg";
 
 const FooterContainer = styled.div`
     height: 350px;
@@ -26,6 +27,7 @@ const SocialsHeader = styled.div`
     text-decoration: underline;
     margin-bottom: 50px;
     margin-left: 25px;
+    font-weight: 600;
 `;
 
 const SocialsGrid = styled.div`
@@ -42,6 +44,18 @@ const FootnoteContainer = styled.div`
 
 `;
 
+const FootnoteText= styled.div`
+    position: relative;
+    top: 275px;
+    left: 55px;
+    text-align: right;
+    width: 260px;
+`;
+
+const Lolipop = styled.img`
+    float: right;
+`;
+
 export default function Footer() {
     return (
         <FooterContainer>
@@ -56,6 +70,13 @@ export default function Footer() {
                     <SocialIcon src={telegramIcon} />
                 </SocialsGrid>
             </SocialsContainer>
+            <FootnoteContainer>
+                <Lolipop src={lolipop} />
+                <FootnoteText>
+                    <div>Made by The Digital Labs</div>
+                    <div>© 2021 Own Me</div>
+                </FootnoteText>
+            </FootnoteContainer>
         </FooterContainer>
     );
 };
