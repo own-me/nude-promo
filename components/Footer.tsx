@@ -9,7 +9,7 @@ import twitterIcon from "../media/icons/twitter/negative.svg";
 import lolipop from "../media/lolipop.svg";
 
 const socialIcons = [
-    discordIcon, 
+    discordIcon,
     instagramIcon,
     linkedinIcon,
     mediumIcon,
@@ -53,7 +53,7 @@ const FootnoteContainer = styled.div`
 
 `;
 
-const FootnoteText= styled.div`
+const FootnoteText = styled.div`
     position: relative;
     top: 275px;
     left: 55px;
@@ -82,7 +82,7 @@ export default function Footer() {
                 <Lolipop src={lolipop} />
                 <FootnoteText>
                     <div>Made by The Digital Labs</div>
-                    <div>© 2021 Own Me</div>
+                    <div>© {new Date().getFullYear()} Own Me</div>
                 </FootnoteText>
             </FootnoteContainer>
         </FooterContainer>
