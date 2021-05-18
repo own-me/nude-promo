@@ -8,6 +8,15 @@ import telegramIcon from "../media/icons/telegram/negative.svg";
 import twitterIcon from "../media/icons/twitter/negative.svg";
 import lolipop from "../media/lolipop.svg";
 
+const socialIcons = [
+    discordIcon, 
+    instagramIcon,
+    linkedinIcon,
+    mediumIcon,
+    telegramIcon,
+    twitterIcon
+];
+
 const FooterContainer = styled.div`
     height: 350px;
     display: flex;
@@ -62,12 +71,11 @@ export default function Footer() {
             <SocialsContainer>
                 <SocialsHeader>Get Involved</SocialsHeader>
                 <SocialsGrid>
-                    <SocialIcon src={discordIcon} />
-                    <SocialIcon src={instagramIcon} />
-                    <SocialIcon src={twitterIcon} />
-                    <SocialIcon src={linkedinIcon} />
-                    <SocialIcon src={mediumIcon} />
-                    <SocialIcon src={telegramIcon} />
+                    {
+                        socialIcons.map((icon, index) => {
+                            return <SocialIcon src={icon} key={index} />
+                        })
+                    }
                 </SocialsGrid>
             </SocialsContainer>
             <FootnoteContainer>
