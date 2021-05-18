@@ -45,6 +45,9 @@ const SocialsGrid = styled.div`
     grid-template-rows: auto auto;
 `;
 
+const SocialLink = styled.a`
+`;
+
 const SocialIcon = styled.img`
     margin: 40px;
 `;
@@ -73,7 +76,7 @@ export default function Footer() {
                 <SocialsGrid>
                     {
                         socialIcons.map((icon, index) => {
-                            return <SocialIcon src={icon} key={index} />
+                            return <SocialLink href="_" target="_blank" key={index}><SocialIcon src={icon} /></SocialLink>
                         })
                     }
                 </SocialsGrid>
