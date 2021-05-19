@@ -3,7 +3,7 @@ import styled from "styled-components";
 import candyshop from "../../media/candy-shop.svg";
 
 const CandyshopContainer = styled.div`
-    height: 100%;
+    height: 65%;
 `;
 
 const CandyshopHeader = styled.div`
