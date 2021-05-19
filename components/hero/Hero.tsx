@@ -12,7 +12,7 @@ const HeroContainer = styled.div`
 const HeroImage = styled.img`
     position: absolute;
     height: 800px;
-    top: 30%;
+    top: 25%;
     right: 7%;
 `;
 
