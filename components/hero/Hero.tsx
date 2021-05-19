@@ -5,7 +5,8 @@ import HeroText from "./HeroText";
 import bitch from "../../media/bitch.png";
 
 const HeroContainer = styled.div`
-    margin: 200px 50px 50px; 0px;
+    margin: 200px 50px 50px 0px;
+    height: calc(100% - 340px);
 `;
 
 const HeroImage = styled.img`

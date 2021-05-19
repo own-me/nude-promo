@@ -7,6 +7,7 @@ import "@fontsource/shadows-into-light";
 import TopNav from "./components/TopNav";
 import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
+import Candyshop from "./components/candyshop/Candyshop";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <AppLayout>
                 <TopNav />
                 <Hero />
+                <Candyshop />
             </AppLayout>
             <Footer />
         </>
