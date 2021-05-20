@@ -7,6 +7,11 @@ import moneyBag from "../../media/money-bag.svg";
 
 const FeaturesContainer = styled.div`
     min-height: 800px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins, Open Sans;
 `;
 
 const featuresData = [
