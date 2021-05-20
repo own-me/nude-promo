@@ -9,6 +9,7 @@ import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
 import Candyshop from "./components/candyshop/Candyshop";
 import Auctionhouse from "./components/auctionhouse/Auctionhouse";
+import Features from "./components/features/Features";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Hero />
                 <Candyshop />
                 <Auctionhouse />
+                <Features />
             </AppLayout>
             <Footer />
         </>
