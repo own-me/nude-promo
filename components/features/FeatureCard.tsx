@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const CardContainer = styled.div`
+const CardContainer = styled.div<{ background: string }>`
     height: 500px;
     width: 250px;
-    background-color: brown;
+    background-color: ${props => props.background};
 `;
 
 const Title = styled.h2`
@@ -19,9 +19,9 @@ const Text = styled.div`
     color: white;
 `;
 
-export default function FeatureCard({ title, icon, text }) {
+export default function FeatureCard({ title, icon, text, background }) {
     return (
-        <CardContainer>
+        <CardContainer background={background}>
             <Title>{title}</Title>
             <Icon src={icon} />
             <Text>{text}</Text>
