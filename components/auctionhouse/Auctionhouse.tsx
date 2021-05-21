@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bubblegum from "../../media/bubblegum.svg";
+import auction from "../../media/auction.svg";
 
 const AuctionhouseContainer = styled.div`
     height: 40%;
@@ -51,7 +51,7 @@ export default function Auctionhouse() {
                         Collectors compete to own NFTs of their favorite creators. Build your private collection of creator content.
                     </AuctionhouseText>
                 </AuctionhouseTextContainer>
-                <AuctionhouseImage src={bubblegum} />
+                <AuctionhouseImage src={auction} />
             </AuctionhouseGrid>
         </AuctionhouseContainer>
     );
