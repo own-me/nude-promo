@@ -44,7 +44,7 @@ const CandyshopText = styled.div`
     padding: 0px 50px;
 `;
 
-export default function Hero() {
+export default function Candyshop() {
     return (
         <CandyshopContainer>
             <CandyshopHeader>

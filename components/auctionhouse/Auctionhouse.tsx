@@ -3,15 +3,7 @@ import styled from "styled-components";
 import bubblegum from "../../media/bubblegum.svg";
 
 const AuctionhouseContainer = styled.div`
-    height: 50%;
-`;
-
-const AuctionhouseHeader = styled.div`
-    font-family: Yeseva One, Open Sans;
-    font-size: 70px;
-    line-height: 2.0;
-    letter-spacing: 2.0;
-    color: #2A2825;
+    height: 40%;
 `;
 
 const AuctionhouseGrid = styled.div`
@@ -44,7 +36,7 @@ const AuctionhouseText = styled.div`
     padding: 0px 50px;
 `;
 
-export default function Hero() {
+export default function Auctionhouse() {
     return (
         <AuctionhouseContainer>
             <AuctionhouseGrid>
@@ -53,7 +45,7 @@ export default function Hero() {
                         The Auction House
                     </AuctionhouseTextHeader>
                     <AuctionhouseText>
-                        Creators put their best content up for auction as NFTs. Earn cryptocurrency and generate profitable income. 
+                        Creators put their best content up for auction as NFTs. Earn cryptocurrency and generate profitable income.
                     </AuctionhouseText>
                     <AuctionhouseText>
                         Collectors compete to own NFTs of their favorite creators. Build your private collection of creator content.

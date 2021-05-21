@@ -11,6 +11,7 @@ import Candyshop from "./components/candyshop/Candyshop";
 import Auctionhouse from "./components/auctionhouse/Auctionhouse";
 import Features from "./components/features/Features";
 import Footer from "./components/Footer";
+import GumballMachine from "./components/gumball-machine/GumballMachine";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Hero />
                 <Candyshop />
                 <Auctionhouse />
+                <GumballMachine />
                 <Features />
             </AppLayout>
             <Footer />
