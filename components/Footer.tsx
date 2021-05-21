@@ -7,14 +7,39 @@ import mediumIcon from "../media/icons/medium/negative.svg";
 import telegramIcon from "../media/icons/telegram/negative.svg";
 import twitterIcon from "../media/icons/twitter/negative.svg";
 import lolipop from "../media/lolipop.svg";
+import {socialLinks} from "../constants";
 
 const socialIcons = [
-    discordIcon,
-    instagramIcon,
-    linkedinIcon,
-    mediumIcon,
-    telegramIcon,
-    twitterIcon
+    {
+        key: "discord",
+        icon: discordIcon,
+        url: socialLinks.discord.url
+    },
+    {
+        key: "instagram",
+        icon: instagramIcon,
+        url: socialLinks.instagram.url
+    },
+    {
+        key: "linkedin",
+        icon: linkedinIcon,
+        url: socialLinks.linkedin.url
+    },
+    {
+        key: "medium",
+        icon: mediumIcon,
+        url: socialLinks.medium.url
+    },
+    {
+        key: "telegram",
+        icon: telegramIcon,
+        url: socialLinks.telegram.url
+    },
+    {
+        key: "twitter",
+        icon: twitterIcon,
+        url: socialLinks.twitter.url
+    }
 ];
 
 const FooterContainer = styled.div`
@@ -75,8 +100,8 @@ export default function Footer() {
                 <SocialsHeader>Get Involved</SocialsHeader>
                 <SocialsGrid>
                     {
-                        socialIcons.map((icon, index) => {
-                            return <SocialLink href="_" target="_blank" key={index}><SocialIcon src={icon} /></SocialLink>
+                        Object.values(socialIcons).map((value, index) => {
+                            return <SocialLink href={value.url} target="_blank" key={index}><SocialIcon src={value.icon} /></SocialLink>
                         })
                     }
                 </SocialsGrid>

@@ -29,5 +29,30 @@ export const socialLinks: Record<string, socialLink> = {
         key: "discord",
         title: "Discord",
         url: "https://discord.gg/Ww5nckNGpS"
+    },
+    twitter: {
+        key: "twitter",
+        title: "Twitter",
+        url: "https://twitter.com/Own_Me_NFT"
+    },
+    instagram: {
+        key: "instagram",
+        title: "Instagram",
+        url: "_"
+    },
+    linkedin: {
+        key: "linkedin",
+        title: "LinkedIn",
+        url: "_"
+    },
+    medium: {
+        key: "medium",
+        title: "Medium",
+        url: "_"
+    },
+    telegram: {
+        key: "telegram",
+        title: "Telegram",
+        url: "_"
     }
 };
