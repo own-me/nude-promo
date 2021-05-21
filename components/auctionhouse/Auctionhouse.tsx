@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import auction from "../../media/auction.svg";
+import auction from "../../media/auction-house.svg";
 
 const AuctionhouseContainer = styled.div`
     height: 40%;
@@ -12,7 +12,7 @@ const AuctionhouseGrid = styled.div`
 `;
 
 const AuctionhouseImage = styled.img`
-    height: 500px;
+    height: 425px;
     flex-grow: 1;
 `;
 
