@@ -57,10 +57,10 @@ export default function Candyshop() {
                         The Candy Shop
                     </CandyshopTextHeader>
                     <CandyshopText>
-                        Creators promote their posts for free and market their profiles to the world.
+                        A place for creators to promote their posts for free and market their profiles to the world. We give both established and newer creators equal promotional opportunities.
                     </CandyshopText>
                     <CandyshopText>
-                        Collectors discover new creators and browse content that matches their interests.
+                        Collectors discover new creators and browse content that matches their interests. Browse by category, gender, date, popularity and more.
                     </CandyshopText>
                 </CandyshopTextContainer>
             </CandyshopGrid>

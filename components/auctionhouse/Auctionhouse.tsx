@@ -45,10 +45,10 @@ export default function Auctionhouse() {
                         The Auction House
                     </AuctionhouseTextHeader>
                     <AuctionhouseText>
-                        Creators put their best content up for auction as NFTs. Earn cryptocurrency and generate profitable income.
+                        Creators list their best content for auction as NFTs. Set time locked auctions and keep track of collectors bets. You choose the rarity of your NFT and if the NFT content is publicy viewable.
                     </AuctionhouseText>
                     <AuctionhouseText>
-                        Collectors compete to own NFTs of their favorite creators. Build your private collection of creator content.
+                        Collectors compete with crypto bids to own NFTs of their favorite creators. Build your private or public collection of rare creator content.
                     </AuctionhouseText>
                 </AuctionhouseTextContainer>
                 <AuctionhouseImage src={auction} />

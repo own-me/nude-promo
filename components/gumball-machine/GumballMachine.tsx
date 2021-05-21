@@ -46,10 +46,10 @@ export default function GumballMachine() {
                         The Gumball Machine
                     </GumballMachineTextHeader>
                     <GumballMachineText>
-                        Creators put their best content up for auction as NFTs. Earn cryptocurrency and generate profitable income.
+                        Creators mint NFTs and put their content into a pool to be randomly drawn by collectors. Creators receive profit back from the sale of their NFT. It is a fun way to promote your content to random people and bring attention to your profile.
                     </GumballMachineText>
                     <GumballMachineText>
-                        Collectors compete to own NFTs of their favorite creators. Build your private collection of creator content.
+                        Collectors enter a fixed cryptocurrency fee and receive a NFT from a random creator to add to their collection.
                     </GumballMachineText>
                 </GumballMachineTextContainer>
             </GumballMachineGrid>
