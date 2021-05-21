@@ -53,6 +53,6 @@ export const socialLinks: Record<string, socialLink> = {
     telegram: {
         key: "telegram",
         title: "Telegram",
-        url: "_"
+        url: "https://t.me/own_me_nft"
     }
 };
