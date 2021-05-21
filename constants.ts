@@ -38,7 +38,7 @@ export const socialLinks: Record<string, socialLink> = {
     instagram: {
         key: "instagram",
         title: "Instagram",
-        url: "_"
+        url: "https://www.instagram.com/own_me_nft/"
     },
     linkedin: {
         key: "linkedin",
