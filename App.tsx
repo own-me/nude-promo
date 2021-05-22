@@ -12,6 +12,7 @@ import Auctionhouse from "./components/auctionhouse/Auctionhouse";
 import Features from "./components/features/Features";
 import Footer from "./components/Footer";
 import GumballMachine from "./components/gumball-machine/GumballMachine";
+import TokenTalk from "./components/token-talk/TokenTalk";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                 <Auctionhouse />
                 <GumballMachine />
                 <Features />
+                <TokenTalk />
             </AppLayout>
             <Footer />
         </>
