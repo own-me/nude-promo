@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div<{ background: string }>`
-    height: 500px;
-    width: 250px;
+    height: 550px;
+    width: 300px;
     background-color: ${props => props.background};
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
@@ -13,6 +13,7 @@ const Title = styled.h2`
     color: white;
     text-align: center;
     margin-bottom: 40px;
+    font-size: 30px;
 `;
 
 const IconContainer = styled.div`
@@ -21,12 +22,12 @@ const IconContainer = styled.div`
 `;
 
 const Icon = styled.img`
-    height: 100px;
+    height: 150px;
 `;
 
 const Text = styled.div`
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 `;
 
 export default function FeatureCard({ title, icon, text, background }) {
