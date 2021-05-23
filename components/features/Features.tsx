@@ -9,9 +9,10 @@ const FeaturesContainer = styled.div`
     min-height: 800px;
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-family: Poppins, Open Sans;
+    flex-wrap: wrap;
 `;
 
 const featuresData = [

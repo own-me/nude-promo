@@ -7,6 +7,7 @@ const CardContainer = styled.div<{ background: string }>`
     background-color: ${props => props.background};
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    margin: 30px;
 `;
 
 const Title = styled.h2`
