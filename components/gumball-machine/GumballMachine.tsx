@@ -8,33 +8,53 @@ const GumballMachineContainer = styled.div`
 
 const GumballMachineGrid = styled.div`
     display: flex;
+    align-content: center;
+    justify-content: center;
     margin-top: 200px;
-    flex-wrap: wrap;
+
+    @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
 `;
 
 const GumballMachineImage = styled.img`
-    height: 500px;
+    width: 80%;
+    max-width: 325px;
     flex-grow: 1;
+    margin-bottom: 50px;
 `;
 
 const GumballMachineTextContainer = styled.div`
     flex-grow: 1;
-    padding: 0px 50px;
+    padding: 0px 75px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 0px 10px;
+    }
 `;
 
 const GumballMachineTextHeader = styled.div`
-    font-family: Rock Salt,Open Sans;
+    font-family: Rock Salt, Open Sans;
     color: #D83DFF;
     font-size: 50px;
     text-align: center;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 35px;
+    }
 `;
 
 const GumballMachineText = styled.div`
     font-size: 30px;
     text-align: left;
     margin: 50px 0px;
-    font-family: Poppins,Open Sans;
-    padding: 0px 50px;
+    font-family: Poppins, Open Sans;
+
+    @media screen and (max-width: 1200px) {
+        padding: 0px 10px;
+        font-size: 25px;
+    }
 `;
 
 export default function GumballMachine() {
