@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TokenTalkContainer = styled.div`
-    height: 70%;
+    max-height: 100%;
 `;
 
 const TokenTalkHeader = styled.div`
@@ -11,6 +11,12 @@ const TokenTalkHeader = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     color: #2A2825;
+    @media screen and (max-width: 900px) {
+        font-size: 50px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
 `;
 
 const TokenTalkText = styled.div`
