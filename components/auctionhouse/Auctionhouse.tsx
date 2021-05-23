@@ -3,12 +3,13 @@ import styled from "styled-components";
 import auction from "../../media/auction-house.svg";
 
 const AuctionhouseContainer = styled.div`
-    height: 40%;
+    min-height: 40%;
 `;
 
 const AuctionhouseGrid = styled.div`
     display: flex;
     margin-top: 200px;
+    flex-wrap: wrap;
 `;
 
 const AuctionhouseImage = styled.img`

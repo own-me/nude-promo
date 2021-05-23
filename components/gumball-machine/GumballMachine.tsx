@@ -3,12 +3,13 @@ import styled from "styled-components";
 import gumballMachine from "../../media/gumball-machine.svg";
 
 const GumballMachineContainer = styled.div`
-    height: 50%;
+    min-height: 50%;
 `;
 
 const GumballMachineGrid = styled.div`
     display: flex;
     margin-top: 200px;
+    flex-wrap: wrap;
 `;
 
 const GumballMachineImage = styled.img`
