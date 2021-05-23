@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const TokenTalkContainer = styled.div`
-    max-height: 100%;
 `;
 
 const TokenTalkHeader = styled.div`

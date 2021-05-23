@@ -12,6 +12,10 @@ const CandyshopHeader = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     color: #2A2825;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 45px;
+    }
 `;
 
 const CandyshopGrid = styled.div`
@@ -22,6 +26,7 @@ const CandyshopGrid = styled.div`
 
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;
+        margin-top: 50px;
     }
 `;
 
@@ -34,7 +39,7 @@ const CandyshopImage = styled.img`
 
 const CandyshopTextContainer = styled.div`
     flex-grow: 1;
-    padding: 0px 50px;
+    padding: 0px 75px;
 
     @media screen and (max-width: 1200px) {
         padding: 0px 10px;
@@ -42,7 +47,7 @@ const CandyshopTextContainer = styled.div`
 `;
 
 const CandyshopTextHeader = styled.div`
-    font-family: Rock Salt,Open Sans;
+    font-family: Rock Salt, Open Sans;
     color: #D83DFF;
     font-size: 50px;
     text-align: center;
@@ -57,7 +62,6 @@ const CandyshopText = styled.div`
     text-align: left;
     margin: 50px 0px;
     font-family: Poppins,Open Sans;
-    padding: 0px 50px;
 
     @media screen and (max-width: 1200px) {
         padding: 0px 10px;
