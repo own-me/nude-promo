@@ -30,7 +30,7 @@ const TokenTalkText = styled.div`
     font-size: 30px;
     text-align: left;
     margin: 50px 0px;
-    font-family: Poppins,Open Sans;
+    font-family: Poppins, Open Sans;
     padding: 0px 50px;
 
     @media screen and (max-width: 1200px) {
