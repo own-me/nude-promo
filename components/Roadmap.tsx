@@ -28,13 +28,13 @@ const RoadmapItem = styled.div<{ $offset?: boolean }>`
     height: 200px;
     width: 100%;
     text-align: center;
-    ${props => props.$offset ? "margin-top: 170px" : ""};
+    ${props => props.$offset ? "margin-top: 172px" : ""};
 `;
 
 const RoadmapItemText = styled.div`
     padding: 20px;
     font-family: Poppins, Open Sans;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 auto;
     width: 200px;
 `;
@@ -52,12 +52,12 @@ const VerticalLineContainer = styled.div`
 `;
 
 const VerticalLineSection = styled.div`
-    border-right: solid black 2px;
+    border-right: solid #ee98fd 2px;
     height: 100%;
 `;
 
 const HorizontalLine = styled.div<{ $offset?: boolean }>`
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #bfbfbf;
     position: relative;
     top: ${props => props.$offset ? "-210px" : "-70px"};
     left: 50%;
