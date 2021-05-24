@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/the-digital-labs/own-me-promo/issues"
   },
-  "homepage": "https://github.com/the-digital-labs/own-me-promo#readme",
+  "homepage": "https://github.com/the-digital-labs/own-me-promo",
   "dependencies": {
     "@fontsource/poppins": "^4.3.0",
     "@fontsource/rock-salt": "^4.3.0",
