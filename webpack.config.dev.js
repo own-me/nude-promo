@@ -38,11 +38,11 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif|woff(2)?|svg)$/i,
                 use: [
-                  {
-                    loader: 'file-loader',
-                  },
+                    {
+                        loader: 'file-loader',
+                    },
                 ],
-              },
+            },
         ]
     },
     resolve: {
