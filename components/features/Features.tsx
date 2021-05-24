@@ -12,7 +12,11 @@ const FeaturesContainer = styled.div`
     justify-content: center;
     align-items: center;
     font-family: Poppins, Open Sans;
-    flex-wrap: wrap;
+
+    @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 `;
 
 const featuresData = [
