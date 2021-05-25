@@ -10,16 +10,85 @@ const RoadmapContainer = styled.div`
     min-height: 40%;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 50px 0px;
     @media screen and (min-width: 1200px) {
         display: none;
     }
 `;
 
+const RoadmapItem = styled.div`
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+`;
+
+const RoadmapItemText = styled.div`
+    font-family: Poppins, Open Sans;
+    font-size: 22px;
+    width: 200px;
+`;
+
+const RoadmapCandy = styled.img`
+    max-width: 100%;
+    height: 100px;
+    padding: 20px;
+`;
+
+const HorizontalLineContainer = styled.div`
+    height: 100%;
+    width: 100px;
+    padding: 0px 40px;
+`;
+
+const HorizontalLineSection = styled.div`
+    border-bottom: solid #ee98fd 2px;
+    height: 50%;
+`;
+
 export default function RoadmapMobile() {
     return (
         <RoadmapContainer>
+            <RoadmapItem>
+                <RoadmapCandy src={candy} />
+                <HorizontalLineContainer>
+                    <HorizontalLineSection />
+                </HorizontalLineContainer>
+                <RoadmapItemText>
+                    Build community, team and ideas.
+                </RoadmapItemText>
+            </RoadmapItem>
 
+            <RoadmapItem>
+                <RoadmapCandy src={candy1} />
+                <HorizontalLineContainer>
+                    <HorizontalLineSection />
+                </HorizontalLineContainer>
+                <RoadmapItemText>
+                    Testnet Launch.
+                </RoadmapItemText>
+            </RoadmapItem>
+
+            <RoadmapItem>
+                <RoadmapCandy src={candy2} />
+                <HorizontalLineContainer>
+                    <HorizontalLineSection />
+                </HorizontalLineContainer>
+                <RoadmapItemText>
+                    Audit, test and review.
+                </RoadmapItemText>
+            </RoadmapItem>
+
+            <RoadmapItem>
+                <RoadmapCandy src={candy3} />
+                <HorizontalLineContainer>
+                    <HorizontalLineSection />
+                </HorizontalLineContainer>
+                <RoadmapItemText>
+                    Mainnet Launch.
+                </RoadmapItemText>
+            </RoadmapItem>
         </RoadmapContainer>
     );
 };
