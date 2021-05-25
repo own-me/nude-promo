@@ -28,6 +28,7 @@ const RoadmapItemText = styled.div`
     font-family: Poppins, Open Sans;
     font-size: 22px;
     width: 200px;
+    margin-left: 20px;
 `;
 
 const RoadmapCandy = styled.img`
@@ -39,7 +40,7 @@ const RoadmapCandy = styled.img`
 const HorizontalLineContainer = styled.div`
     height: 100%;
     width: 100px;
-    padding: 0px 40px;
+    padding: 0px 10px;
 `;
 
 const HorizontalLineSection = styled.div`
@@ -47,10 +48,20 @@ const HorizontalLineSection = styled.div`
     height: 50%;
 `;
 
+const VerticalLine = styled.div<{ $offset?: boolean }>`
+    border-left: 2px solid #bfbfbf;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    height: 100%;
+    z-index: -1;
+`;
+
 export default function RoadmapMobile() {
     return (
         <RoadmapContainer>
             <RoadmapItem>
+                <VerticalLine />
                 <RoadmapCandy src={candy} />
                 <HorizontalLineContainer>
                     <HorizontalLineSection />
@@ -61,6 +72,7 @@ export default function RoadmapMobile() {
             </RoadmapItem>
 
             <RoadmapItem>
+                <VerticalLine />
                 <RoadmapCandy src={candy1} />
                 <HorizontalLineContainer>
                     <HorizontalLineSection />
@@ -71,6 +83,7 @@ export default function RoadmapMobile() {
             </RoadmapItem>
 
             <RoadmapItem>
+                <VerticalLine />
                 <RoadmapCandy src={candy2} />
                 <HorizontalLineContainer>
                     <HorizontalLineSection />
