@@ -13,7 +13,7 @@ import Features from "./components/features/Features";
 import Footer from "./components/Footer";
 import GumballMachine from "./components/gumball-machine/GumballMachine";
 import TokenTalk from "./components/token-talk/TokenTalk";
-import Roadmap from "./components/Roadmap";
+import Roadmap from "./components/roadmap/Roadmap";
 
 function App() {
     return (
