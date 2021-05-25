@@ -22,7 +22,7 @@ const CandyshopGrid = styled.div`
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 125px;
 
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;
