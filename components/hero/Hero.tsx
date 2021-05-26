@@ -19,7 +19,7 @@ const HeroImage = styled.img`
     position: absolute;
     width: 25%;
     top: 25%;
-    right: 7%;
+    right: 10%;
 
     @media screen and (max-width: 1200px) {
         display: none;

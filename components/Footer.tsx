@@ -50,6 +50,12 @@ const FooterContainer = styled.div`
     font-family: Poppins, Open Sans;
     background-color: #D842FE;
     padding: 60px;
+    @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+        justify-content: start;
+        height: 450px;
+        padding: 30px;
+    }
 `;
 
 const SocialsContainer = styled.div`
@@ -75,10 +81,16 @@ const SocialLink = styled.a`
 
 const SocialIcon = styled.img`
     margin: 40px;
+    @media screen and (max-width: 1200px) {
+        margin: 30px;
+    }
 `;
 
 const FootnoteContainer = styled.div`
-
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        padding-top: 50px;
+    }
 `;
 
 const FootnoteText = styled.div`
@@ -87,6 +99,14 @@ const FootnoteText = styled.div`
     left: 55px;
     text-align: right;
     width: 260px;
+
+    @media screen and (max-width: 1200px) {
+        position: static;
+        top: unset;
+        left: unset;
+        text-align: left;
+        width: 100%;
+    }
 `;
 
 const Lolipop = styled.img`
