@@ -29,6 +29,9 @@ const RoadmapItemText = styled.div`
     font-size: 22px;
     width: 200px;
     margin-left: 20px;
+    @media screen and (max-width: 1200px) {
+        width: 180px;
+    }
 `;
 
 const RoadmapCandy = styled.img`
@@ -41,6 +44,9 @@ const HorizontalLineContainer = styled.div`
     height: 100%;
     width: 100px;
     padding: 0px 10px;
+    @media screen and (max-width: 1200px) {
+        width: 40px;
+    }
 `;
 
 const HorizontalLineSection = styled.div`
