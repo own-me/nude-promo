@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../media/logo.svg";
-import { navItems } from "../constants";
+import logo from "../../media/logo.svg";
+import { navItems } from "../../constants";
 
 const TopNavContainer = styled.div`
     width: 100%;
@@ -21,6 +21,9 @@ const NavLinksContainer = styled.div`
     font-family: Poppins, Open Sans;
     font-size: 25px;
     color: #2A2825;
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
 `;
 
 const NavLink = styled.span`

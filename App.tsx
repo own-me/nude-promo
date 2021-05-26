@@ -4,7 +4,7 @@ import "@fontsource/rock-salt";
 import "@fontsource/yeseva-one";
 import "@fontsource/poppins";
 import "@fontsource/shadows-into-light";
-import TopNav from "./components/TopNav";
+import TopNav from "./components/nav/TopNav";
 import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
 import Candyshop from "./components/candyshop/Candyshop";

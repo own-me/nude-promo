@@ -16,6 +16,7 @@ const FeaturesContainer = styled.div`
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;
         flex-direction: column;
+        padding: 50px 0px;
     }
 `;
 
