@@ -11,9 +11,15 @@ const Button = styled.button`
     font-family: Poppins, Open Sans;
     font-size: 15px;
     cursor: pointer;
+    display: block;
 
     :hover {
         color: yellow;
+    }
+
+    @media screen and (max-width: 1200px) {
+        margin-top: 30px;
+        width: 100%;
     }
 `;
 

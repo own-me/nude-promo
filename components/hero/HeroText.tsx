@@ -4,15 +4,21 @@ import styled from "styled-components";
 const HeroTextContainer = styled.div`
     max-width: 700px;
     margin-bottom: 20px;
+    @media screen and (max-width: 1200px) {
+        max-width: 100%;
+    }
 `;
 
 const MainText = styled.div`
     font-family: Yeseva One, Open Sans;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 2.0;
     letter-spacing: 2.0;
     color: #2A2825;
     margin: 20px 0px;
+    @media screen and (max-width: 1200px) {
+        font-size: 40px;
+    }
 `;
 
 const FancyTextAssets = styled.span`
@@ -31,6 +37,11 @@ const SubText = styled.div`
     font-size: 35px;
     margin: 20px 0px 40px 20px;
     letter-spacing: 2.0;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 30px;
+        margin: 20px 0px;
+    }
 `;
 
 const ColoredStar = styled.span`
