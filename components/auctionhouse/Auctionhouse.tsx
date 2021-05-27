@@ -53,7 +53,7 @@ const AuctionhouseTextContainer = styled.div`
     padding: 0px 75px;
 
     @media screen and (max-width: 1200px) {
-        padding: 0px 0px;
+        padding: 0px;
     }
 `;
 

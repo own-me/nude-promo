@@ -14,7 +14,7 @@ const GumballMachineGrid = styled.div`
 
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 `;
 
@@ -23,6 +23,11 @@ const GumballMachineImage = styled.img`
     max-width: 325px;
     flex-grow: 1;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 600px) {
+        max-width: 200px;
+        margin-bottom: 25px;
+    }
 `;
 
 const GumballMachineTextContainer = styled.div`
@@ -30,7 +35,7 @@ const GumballMachineTextContainer = styled.div`
     padding: 0px 75px;
 
     @media screen and (max-width: 1200px) {
-        padding: 0px 10px;
+        padding: 0px;
     }
 `;
 
@@ -43,6 +48,9 @@ const GumballMachineTextHeader = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 35px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 25px;
+    }
 `;
 
 const GumballMachineText = styled.div`
@@ -54,6 +62,10 @@ const GumballMachineText = styled.div`
     @media screen and (max-width: 1200px) {
         padding: 0px 10px;
         font-size: 25px;
+    }
+    @media screen and (max-width: 600px) {
+        margin: 20px 0px;
+        font-size: 22px;
     }
 `;
 
