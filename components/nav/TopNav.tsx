@@ -13,6 +13,9 @@ const BrandContainer = styled.div`
 `;
 
 const BrandLogo = styled.img`
+    @media screen and (max-width: 600px) {
+        height: 50px;
+    }
 `;
 
 const NavLinksContainer = styled.div`

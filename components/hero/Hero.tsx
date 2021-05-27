@@ -9,9 +9,14 @@ const HeroContainer = styled.div`
     height: calc(100% - 340px);
 
     @media screen and (max-width: 1200px) {
-        margin: 100px 0px 0px 0px;
+        margin: 60px 0px 0px 0px;
         text-align: center;
         height: calc(100vh - 130px);
+    }
+    @media screen and (max-width: 600px) {
+        padding: 10px 2%;
+        margin: 10px 0px 0px 0px;
+        height: calc(100% - 80px);
     }
 `;
 
@@ -33,6 +38,9 @@ const HeroImageMobile = styled.img`
     }
     @media screen and (max-width: 1200px) {
         width: 25vh;
+    }
+    @media screen and (max-width: 600px) {
+        width: 23vh;
     }
 `;
 

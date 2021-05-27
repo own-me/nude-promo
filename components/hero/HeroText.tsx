@@ -19,6 +19,10 @@ const MainText = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 28px;
+        margin: 5px 0px;
+    }
 `;
 
 const FancyTextAssets = styled.span`
@@ -41,6 +45,10 @@ const SubText = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 30px;
         margin: 20px 0px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+        margin: 10px 0px;
     }
 `;
 
