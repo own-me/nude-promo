@@ -13,6 +13,10 @@ const TokenTalkHeader = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+        text-align: center;
+    }
 `;
 
 const TokenTalkSubHeader = styled.div`
@@ -23,6 +27,10 @@ const TokenTalkSubHeader = styled.div`
     color: #2A2825;
     @media screen and (max-width: 1200px) {
         font-size: 30px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 24px;
+        text-align: center;
     }
 `;
 
@@ -36,6 +44,11 @@ const TokenTalkText = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 25px;
         padding: 0px 20px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 22px;
+        padding: 0px 10px;
+        margin: 30px 0px;
     }
 `;
 
