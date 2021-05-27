@@ -56,6 +56,9 @@ const FooterContainer = styled.div`
         height: 450px;
         padding: 30px;
     }
+    @media screen and (max-width: 600px) {
+        height: 370px;
+    }
 `;
 
 const SocialsContainer = styled.div`
@@ -68,6 +71,12 @@ const SocialsHeader = styled.div`
     margin-bottom: 50px;
     margin-left: 25px;
     font-weight: 600;
+
+    @media screen and (max-width: 600px) {
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
 `;
 
 const SocialsGrid = styled.div`
@@ -91,6 +100,9 @@ const FootnoteContainer = styled.div`
         width: 100%;
         padding-top: 50px;
     }
+    @media screen and (max-width: 600px) {
+        padding-top: 30px;
+    }
 `;
 
 const FootnoteText = styled.div`
@@ -107,10 +119,16 @@ const FootnoteText = styled.div`
         text-align: left;
         width: 100%;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 14px;
+    }
 `;
 
 const Lolipop = styled.img`
     float: right;
+    @media screen and (max-width: 600px) {
+        width: 40px;
+    }
 `;
 
 export default function Footer() {
