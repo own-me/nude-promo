@@ -23,6 +23,29 @@ const AuctionhouseImage = styled.img`
     max-width: 500px;
     flex-grow: 1;
     margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+`;
+
+const AuctionhouseImageMobile = styled.img`
+    width: 80%;
+    max-width: 500px;
+    flex-grow: 1;
+    margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+    @media screen and (max-width: 1200px) {
+        display: block;
+    }
+    @media screen and (max-width: 600px) {
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
 `;
 
 const AuctionhouseTextContainer = styled.div`
@@ -30,7 +53,7 @@ const AuctionhouseTextContainer = styled.div`
     padding: 0px 75px;
 
     @media screen and (max-width: 1200px) {
-        padding: 0px 10px;
+        padding: 0px 0px;
     }
 `;
 
@@ -42,6 +65,9 @@ const AuctionhouseTextHeader = styled.div`
 
     @media screen and (max-width: 1200px) {
         font-size: 35px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
     }
 `;
 
@@ -55,12 +81,17 @@ const AuctionhouseText = styled.div`
         padding: 0px 10px;
         font-size: 25px;
     }
+    @media screen and (max-width: 600px) {
+        margin: 20px 0px;
+        font-size: 22px;
+    }
 `;
 
 export default function Auctionhouse() {
     return (
         <AuctionhouseContainer>
             <AuctionhouseGrid>
+                <AuctionhouseImageMobile src={auction} />
                 <AuctionhouseTextContainer>
                     <AuctionhouseTextHeader>
                         The Auction House
