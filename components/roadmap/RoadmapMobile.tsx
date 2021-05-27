@@ -32,6 +32,9 @@ const RoadmapItemText = styled.div`
     @media screen and (max-width: 1200px) {
         width: 180px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
 `;
 
 const RoadmapCandy = styled.img`
