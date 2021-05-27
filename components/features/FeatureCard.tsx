@@ -3,11 +3,15 @@ import styled from "styled-components";
 
 const CardContainer = styled.div<{ background: string }>`
     height: 550px;
-    width: 300px;
+    max-width: 300px;
     background-color: ${props => props.background};
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     margin: 30px;
+
+    @media screen and (max-width: 600px) {
+        margin: 20px 5px;
+    }
 `;
 
 const Title = styled.h2`

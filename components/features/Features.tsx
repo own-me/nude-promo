@@ -18,6 +18,9 @@ const FeaturesContainer = styled.div`
         flex-direction: column;
         padding: 50px 0px;
     }
+    @media screen and (max-width: 600px) {
+        padding: 20px 0px;
+    }
 `;
 
 const featuresData = [
