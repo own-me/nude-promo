@@ -16,7 +16,7 @@ const HeroContainer = styled.div`
     @media screen and (max-width: 600px) {
         padding: 10px 2%;
         margin: 10px 0px 0px 0px;
-        height: calc(100% - 80px);
+        height: calc(100% - 60px);
     }
 `;
 

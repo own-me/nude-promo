@@ -16,6 +16,10 @@ const CandyshopHeader = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 45px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 32px;
+        text-align: center;
+    }
 `;
 
 const CandyshopGrid = styled.div`
@@ -35,6 +39,11 @@ const CandyshopImage = styled.img`
     max-width: 500px;
     flex-grow: 1;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 600px) {
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
 `;
 
 const CandyshopTextContainer = styled.div`
@@ -42,7 +51,7 @@ const CandyshopTextContainer = styled.div`
     padding: 0px 75px;
 
     @media screen and (max-width: 1200px) {
-        padding: 0px 10px;
+        padding: 0px 0px;
     }
 `;
 
@@ -55,6 +64,9 @@ const CandyshopTextHeader = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 35px;
     }
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
 `;
 
 const CandyshopText = styled.div`
@@ -66,6 +78,10 @@ const CandyshopText = styled.div`
     @media screen and (max-width: 1200px) {
         padding: 0px 10px;
         font-size: 25px;
+    }
+    @media screen and (max-width: 600px) {
+        margin: 20px 0px;
+        font-size: 22px;
     }
 `;
 
