@@ -1,6 +1,4 @@
 name: Build n Deploy
-environment:
-  name: s3
 on:
   pull_request:
   push:
@@ -14,8 +12,6 @@ jobs:
         node-version: [16.x]
     steps:
     - uses: actions/checkout@v2
-    - name: ECHO
-      run: echo "$GITHUB_CONTEXT"
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
