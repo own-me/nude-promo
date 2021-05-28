@@ -4,7 +4,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     mode: 'production',
-    entry: './App.tsx',
+    entry: path.join(__dirname, 'App.tsx'),
     devtool: "source-map",
     output: {
         path: path.join(__dirname, 'prod'),
@@ -41,12 +41,12 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js", ".css", ".svg"],
+        extensions: [".tsx", ".ts", ".js", ".css"],
     },
     plugins: [
         new HtmlWebpackPlugin({
             inject: true,
-            template: './index.html',
+            template: path.join(__dirname, 'index.html'),
         }),
         new CopyPlugin({
             patterns: [
