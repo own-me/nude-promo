@@ -7,7 +7,7 @@ module.exports = {
     entry: path.join(__dirname, 'App.tsx'),
     devtool: "source-map",
     output: {
-        path: path.join(__dirname, 'prod'),
+        path: path.join(__dirname, 'dist'),
         filename: 'own-me-promo.bundle.prod.js',
     },
     module: {
