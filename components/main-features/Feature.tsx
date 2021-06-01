@@ -10,6 +10,7 @@ const FeatureGrid = styled.div`
     align-content: center;
     justify-content: center;
     margin-top: 125px;
+    align-items: center;
 
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;
@@ -22,7 +23,7 @@ const FeatureImage = styled.img`
     max-width: 500px;
     max-height: 500px;
     flex-grow: 1;
-    margin-bottom: 50px;
+
     @media screen and (min-width: 1200px) {
         display: block;
     }
@@ -36,6 +37,7 @@ const FeatureImageMobile = styled.img`
     max-width: 500px;
     flex-grow: 1;
     margin-bottom: 50px;
+
     @media screen and (min-width: 1200px) {
         display: none;
     }

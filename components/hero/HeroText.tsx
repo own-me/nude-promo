@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const HeroTextContainer = styled.div`
-    max-width: 700px;
+    max-width: 765px;
     margin-bottom: 20px;
     @media screen and (max-width: 1200px) {
         max-width: 100%;
