@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import auction from "../../media/auction-house.svg";
 
-const AuctionhouseContainer = styled.div`
+const FeatureContainer = styled.div`
     min-height: 40%;
 `;
 
-const AuctionhouseGrid = styled.div`
+const FeatureGrid = styled.div`
     display: flex;
     align-content: center;
     justify-content: center;
@@ -18,9 +17,10 @@ const AuctionhouseGrid = styled.div`
     }
 `;
 
-const AuctionhouseImage = styled.img`
+const FeatureImage = styled.img`
     width: 80%;
     max-width: 500px;
+    max-height: 500px;
     flex-grow: 1;
     margin-bottom: 50px;
     @media screen and (min-width: 1200px) {
@@ -31,7 +31,7 @@ const AuctionhouseImage = styled.img`
     }
 `;
 
-const AuctionhouseImageMobile = styled.img`
+const FeatureImageMobile = styled.img`
     width: 80%;
     max-width: 500px;
     flex-grow: 1;
@@ -48,7 +48,7 @@ const AuctionhouseImageMobile = styled.img`
     }
 `;
 
-const AuctionhouseTextContainer = styled.div`
+const FeatureTextContainer = styled.div`
     flex-grow: 1;
     padding: 0px 75px;
 
@@ -57,7 +57,7 @@ const AuctionhouseTextContainer = styled.div`
     }
 `;
 
-const AuctionhouseTextHeader = styled.div`
+const FeatureTextHeader = styled.div`
     font-family: Rock Salt, Open Sans;
     color: #D83DFF;
     font-size: 50px;
@@ -71,7 +71,7 @@ const AuctionhouseTextHeader = styled.div`
     }
 `;
 
-const AuctionhouseText = styled.div`
+const FeatureText = styled.div`
     font-size: 30px;
     text-align: left;
     margin: 50px 0px;
@@ -87,24 +87,29 @@ const AuctionhouseText = styled.div`
     }
 `;
 
-export default function Auctionhouse() {
+export default function Feature({ image, header, text1, text2, imagePosition }) {
     return (
-        <AuctionhouseContainer>
-            <AuctionhouseGrid>
-                <AuctionhouseImageMobile src={auction} />
-                <AuctionhouseTextContainer>
-                    <AuctionhouseTextHeader>
-                        The Auction House
-                    </AuctionhouseTextHeader>
-                    <AuctionhouseText>
-                        Creators list their best content for auction as NFTs. Set time locked auctions and keep track of collectors bets. You choose the rarity of your NFT and if the NFT content is publicy viewable.
-                    </AuctionhouseText>
-                    <AuctionhouseText>
-                        Collectors compete with crypto bids to own NFTs of their favorite creators. Build your private or public collection of rare creator content.
-                    </AuctionhouseText>
-                </AuctionhouseTextContainer>
-                <AuctionhouseImage src={auction} />
-            </AuctionhouseGrid>
-        </AuctionhouseContainer>
+        <FeatureContainer>
+            <FeatureGrid>
+                <FeatureImageMobile src={image} />
+                {
+                    imagePosition === "left" && <FeatureImage src={image} />
+                }
+                <FeatureTextContainer>
+                    <FeatureTextHeader>
+                        {header}
+                    </FeatureTextHeader>
+                    <FeatureText>
+                        {text1}
+                    </FeatureText>
+                    <FeatureText>
+                        {text2}
+                    </FeatureText>
+                </FeatureTextContainer>
+                {
+                    imagePosition === "right" && <FeatureImage src={image} />
+                }
+            </FeatureGrid>
+        </FeatureContainer>
     );
 };

@@ -7,13 +7,11 @@ import "@fontsource/shadows-into-light";
 import TopNav from "./components/nav/TopNav";
 import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
-import Candyshop from "./components/candyshop/Candyshop";
-import Auctionhouse from "./components/auctionhouse/Auctionhouse";
-import Features from "./components/features/Features";
+import FeatureCards from "./components/feature-cards/FeatureCards";
 import Footer from "./components/Footer";
-import GumballMachine from "./components/gumball-machine/GumballMachine";
 import TokenTalk from "./components/token-talk/TokenTalk";
 import Roadmap from "./components/roadmap/Roadmap";
+import MainFeatures from "./components/main-features/MainFeatures";
 
 function App() {
     return (
@@ -21,10 +19,8 @@ function App() {
             <AppLayout>
                 <TopNav />
                 <Hero />
-                <Candyshop />
-                <Auctionhouse />
-                <GumballMachine />
-                <Features />
+                <MainFeatures />
+                <FeatureCards />
                 <TokenTalk />
                 <Roadmap />
             </AppLayout>
