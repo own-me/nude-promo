@@ -41,6 +41,9 @@ const RoadmapCandy = styled.img`
     max-width: 100%;
     height: 100px;
     padding: 20px;
+    @media screen and (max-width: 600px) {
+        height: 85px;
+    }
 `;
 
 const HorizontalLineContainer = styled.div`
@@ -64,6 +67,9 @@ const VerticalLine = styled.div<{ $offset?: boolean }>`
     left: 75px;
     height: 100%;
     z-index: -1;
+    @media screen and (max-width: 600px) {
+        left: 65px;
+    }
 `;
 
 export default function RoadmapMobile() {

@@ -40,7 +40,7 @@ const HeroBannerImage = styled.img`
     z-index: -2;
 
     @media screen and (max-width: 1200px) {
-        display: none;
+        bottom: 20%;
     }
 `;
 
