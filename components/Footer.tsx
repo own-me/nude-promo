@@ -58,6 +58,7 @@ const FooterContainer = styled.div`
     }
     @media screen and (max-width: 600px) {
         height: 370px;
+        justify-content: center;
     }
 `;
 
@@ -131,6 +132,13 @@ const Lolipop = styled.img`
     }
 `;
 
+const Copyright = styled.div`
+    @media screen and (min-width: 600px) {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+`;
+
 export default function Footer() {
     return (
         <FooterContainer>
@@ -148,7 +156,7 @@ export default function Footer() {
                 <Lolipop src={lolipop} />
                 <FootnoteText>
                     <div>Made by The Digital Labs</div>
-                    <div>© {new Date().getFullYear()} Own Me</div>
+                    <Copyright>&#169; {new Date().getFullYear()} Own Me</Copyright>
                 </FootnoteText>
             </FootnoteContainer>
         </FooterContainer>
