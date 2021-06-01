@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TokenTalkContainer = styled.div`
+    padding: 40px 0px;
 `;
 
 const TokenTalkHeader = styled.div`
@@ -14,7 +15,7 @@ const TokenTalkHeader = styled.div`
         font-size: 40px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 30px;
+        font-size: 32px;
         text-align: center;
     }
 `;
@@ -29,7 +30,7 @@ const TokenTalkSubHeader = styled.div`
         font-size: 30px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 24px;
+        font-size: 26px;
         text-align: center;
     }
 `;

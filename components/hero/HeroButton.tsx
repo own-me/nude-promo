@@ -21,6 +21,9 @@ const Button = styled.button`
         margin-top: 30px;
         width: 100%;
     }
+    @media screen and (max-width: 600px) {
+        margin-top: 5px;
+    }
 `;
 
 const Link = styled.a`

@@ -69,7 +69,7 @@ const FeatureTextHeader = styled.div`
         font-size: 35px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 30px;
+        font-size: 26px;
     }
 `;
 
