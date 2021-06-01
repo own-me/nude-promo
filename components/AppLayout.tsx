@@ -5,7 +5,7 @@ const AppLayoutContainer = styled.div`
     padding: 50px 20%;
     min-height: 100%;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 2000px) {
         padding: 40px 5%;
     }    
     @media screen and (max-width: 600px) {
