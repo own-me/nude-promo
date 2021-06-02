@@ -17,6 +17,9 @@ const TeamHeader = styled.div`
 
 const TeamGrid = styled.div`
     display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
 `;
 
 export default function Team() {
@@ -25,8 +28,8 @@ export default function Team() {
             <TeamHeader>Our Team</TeamHeader>
             <TeamGrid>
                 {
-                    teamData.map(({ name, image, title }, index) => {
-                        return <TeamProfile name={name} image={image} title={title} key={index} />
+                    teamData.map(({ name, image, title, color }, index) => {
+                        return <TeamProfile name={name} image={image} title={title} color={color} key={index} />
                     })
                 }
                 {
