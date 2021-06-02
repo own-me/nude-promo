@@ -17,6 +17,10 @@ const ProfileImage = styled.img<{ $color: string }>`
     border-radius: 100%;
     border: 8px solid ${props => props.$color};
     margin-bottom: 20px;
+    @media screen and (max-width: 600px) {
+        height: 200px;
+        width: 200px;
+    }
 `;
 
 const ProfileTextContainer = styled.div`
@@ -26,6 +30,7 @@ const ProfileTextContainer = styled.div`
 const ProfileName = styled.div`
     font-family: Yeseva One, Open Sans;
     font-size: 25px;
+    margin-bottom: 5px;
 `;
 
 const ProfileTitle = styled.div`

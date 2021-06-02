@@ -40,6 +40,6 @@ export const missingTeamData = [
         title: "Lead of Marketing / Growth"
     },
     {
-        title: "Dapp Frontend Developer"
+        title: "Dapp Frontend Engineer"
     }
 ];
