@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import TokenTalk from "./components/token-talk/TokenTalk";
 import Roadmap from "./components/roadmap/Roadmap";
 import MainFeatures from "./components/main-features/MainFeatures";
+import Team from "./components/team/Team";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <MainFeatures />
                 <FeatureCards />
                 <TokenTalk />
+                <Team />
                 <Roadmap />
             </AppLayout>
             <Footer />
