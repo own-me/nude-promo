@@ -20,6 +20,7 @@ const TeamGrid = styled.div`
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
+    padding: 100px 0px;
 `;
 
 export default function Team() {

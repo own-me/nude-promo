@@ -8,12 +8,15 @@ const ProfileContainer = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin: 50px;
 `;
 
 const ProfileImage = styled.img<{ $color: string }>`
-    height: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
-    border: 5px solid ${props => props.$color}
+    border: 8px solid ${props => props.$color};
+    margin-bottom: 20px;
 `;
 
 const ProfileTextContainer = styled.div`
@@ -21,11 +24,13 @@ const ProfileTextContainer = styled.div`
 `;
 
 const ProfileName = styled.div`
-    
+    font-family: Yeseva One, Open Sans;
+    font-size: 25px;
 `;
 
 const ProfileTitle = styled.div`
-    
+    font-family: Poppins, Open Sans;
+    font-size: 20px;
 `;
 
 export default function TeamProfile({ name, image, title, color }) {

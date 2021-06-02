@@ -18,7 +18,7 @@ export const teamData = [
     {
         name: "Tobi Trimboli",
         image: tobiImage,
-        title: "Chief of Animal and Human Relations",
+        title: "Chief of Human Relations",
         color: "#6FBAFF"
     },
 ];
