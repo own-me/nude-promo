@@ -16,6 +16,27 @@ export const teamData = [
     {
         name: "Tobi Trimboli",
         image: tobiImage,
-        title: "Animal and Human Relations"
+        title: "Chief of Animal and Human Relations"
+    }
+];
+
+export const missingTeamData = [
+    {
+        title: "Lead Blockchain Engineer"
+    },
+    {
+        title: "Lead Dev Ops / Backend Engineer "
+    },
+    {
+        title: "Lead Content Creator / Video Artist"
+    },
+    {
+        title: "Lead of Business / Finance"
+    },
+    {
+        title: "Lead of Marketing / Growth"
+    },
+    {
+        title: "Dapp Frontend Developer"
     }
 ];
