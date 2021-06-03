@@ -5,7 +5,6 @@ import FundingCard from "./FundingCard";
 import { fundingTextData, fundingCardData } from "./config";
 
 const FundingContainer = styled.div`
-    
 `;
 
 const FundingHeader = styled.div`
@@ -40,7 +39,7 @@ const FundingCardsContainer = styled.div`
 
 export default function Funding() {
     return (
-        <FundingContainer>
+        <FundingContainer id="funding">
             <FundingHeader>Funding</FundingHeader>
             {
                 fundingTextData.map(({ boldText, mainText }, index) => {

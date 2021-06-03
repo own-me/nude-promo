@@ -5,7 +5,6 @@ import TeamProfile from "./TeamProfile";
 import TeamMissing from "./TeamMissing";
 
 const TeamContainer = styled.div`
-
 `;
 
 const TeamHeader = styled.div`
@@ -47,7 +46,7 @@ const TeamMissingGrid = styled.div`
 
 export default function Team() {
     return (
-        <TeamContainer>
+        <TeamContainer id="team">
             <TeamHeader>Our Team</TeamHeader>
             <TeamGrid>
                 {

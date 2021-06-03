@@ -56,7 +56,7 @@ const TokenTalkText = styled.div`
 
 export default function TokenTalk() {
     return (
-        <TokenTalkContainer>
+        <TokenTalkContainer id="token-talk">
             <TokenTalkHeader>$NUDE and $NUDENFT Tokens</TokenTalkHeader>
             <TokenTalkText>We will be launching an ERC-20 and ERC-721 token used for in-app transactions, NFT minting, governance, staking, investing and all that good tokenomics sauce we expect from crypto projects.</TokenTalkText>
             <TokenTalkSubHeader>How are we unique?</TokenTalkSubHeader>

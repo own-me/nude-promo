@@ -9,13 +9,22 @@ export const navItems: Array<navItem> = [
         title: "Our Dream"
     },
     {
+        key: "$nude",
+        title: "$NUDE"
+    },
+    {
+        key: "team",
+        title: "Team"
+    },
+    {
+        key: "funding",
+        title: "Funding"
+    },
+    {
         key: "getInvolved",
         title: "Get Involved"
     },
-    {
-        key: "$nude",
-        title: "$NUDE"
-    }
+
 ];
 
 interface socialLink {

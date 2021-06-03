@@ -147,7 +147,7 @@ const Copyright = styled.div`
 
 export default function Footer() {
     return (
-        <FooterContainer>
+        <FooterContainer id="footer">
             <SocialsContainer>
                 <SocialsHeader>Get Involved</SocialsHeader>
                 <SocialsGrid>

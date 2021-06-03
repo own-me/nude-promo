@@ -40,6 +40,40 @@ const NavLink = styled.span`
 `;
 
 export default function TopNav() {
+
+    const scrollToSection = (item) => {
+        let elem = null;
+        switch (item) {
+            case 'Our Dream': {
+                elem = document.getElementById('main-features');
+                break;
+            }
+            case '$NUDE': {
+                elem = document.getElementById('token-talk');
+                break;
+            }
+            case 'Team': {
+                elem = document.getElementById('team');
+                break;
+            }
+            case 'Funding': {
+                elem = document.getElementById('funding');
+                break;
+            }
+            case 'Get Involved': {
+                elem = document.getElementById('footer');
+                break;
+            }
+            default: {
+                break;
+            }
+        }
+        window.scrollTo({
+            top: window.pageYOffset + elem.getBoundingClientRect().top - 80,
+            behavior: 'smooth'
+        });
+    }
+
     return (
         <TopNavContainer>
             <BrandContainer>
@@ -48,7 +82,7 @@ export default function TopNav() {
             <NavLinksContainer>
                 {
                     navItems.map((link, index) => {
-                        return <NavLink key={index}>{link.title}</NavLink>
+                        return <NavLink key={index} onClick={() => scrollToSection(link.title)}>{link.title}</NavLink>
                     })
                 }
             </NavLinksContainer>

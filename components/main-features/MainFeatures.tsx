@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { mainFeatures } from "./config";
 import Feature from "./Feature";
 
+const MainFeaturesContainer = styled.div`
+`;
+
 const MainFeaturesHeader = styled.div`
     font-family: Yeseva One, Open Sans;
     font-size: 70px;
@@ -21,7 +24,7 @@ const MainFeaturesHeader = styled.div`
 
 export default function MainFeatures() {
     return (
-        <>
+        <MainFeaturesContainer id="main-features">
             <MainFeaturesHeader>
                 For Creators and Collectors
             </MainFeaturesHeader>
@@ -30,6 +33,6 @@ export default function MainFeatures() {
                     return <Feature header={header} image={image} text1={text1} text2={text2} imagePosition={imagePosition} key={index} />
                 })
             }
-        </>
+        </MainFeaturesContainer>
     );
 };
