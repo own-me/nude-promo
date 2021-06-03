@@ -16,6 +16,7 @@ const BoldText = styled.span`
     font-family: Yeseva One, Open Sans;
     display: block;
     margin-bottom: 10px;
+    font-size: 34px;
 
     @media screen and (max-width: 600px) {
         font-size: 25px;
