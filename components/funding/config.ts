@@ -9,7 +9,7 @@ export const fundingTextData = [
     },
     {
         boldText: "Why give us money? ",
-        mainText: "There is billions of dollars in this emerging industry and we beleive Own Me can be a top player. We think we have a hot brand and a logical business model to generate profitable revenue."
+        mainText: "There is billions of dollars in this emerging industry and we believe Own Me can be a top player. We think we have a hot brand and a logical business model to generate profitable revenue."
     },
     {
         boldText: "Pitch Deck or White Paper? ",
