@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const FundingTextContainer = styled.div`
     font-family: Poppins, Open Sans;
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px 10%;
 
     @media screen and (max-width: 600px) {
