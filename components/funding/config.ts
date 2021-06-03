@@ -20,18 +20,22 @@ export const fundingTextData = [
 export const fundingCardData = [
     {
         title: "Investors",
-        text: "We are looking for angel investment to grow the team and get everyone working full-time. Get in touch with us if your intrested in owning an early chunk of the company."
+        text: "We are looking for angel investment to grow the team and get everyone working full-time. Get in touch with us if your intrested in owning an early chunk of the company.",
+        color: "#E95FFF"
     },
     {
         title: "VIP Patrons",
-        text: "We might set up a GitGrant, Patreon, GoFundMe account for Own Me and the team. Some perks would be: beta access, discord roles, merch, limited edition NFTs, early-adopter VIP badge on profile and more..."
+        text: "We might set up a GitGrant, Patreon, GoFundMe account for Own Me and the team. Some perks would be: beta access, discord roles, merch, limited edition NFTs, early-adopter VIP badge on profile and more...",
+        color: "#00B2FF"
     },
     {
         title: "Wall of Fame",
-        text: "Patrons and Investors can be included in our Wall of Fame. Plug your company, twitter, name and leave a unique message. Wall of Fame members can get some perks."
+        text: "Patrons and Investors can be included in our Wall of Fame. Plug your company, twitter, name and leave a unique message. Wall of Fame members can get some perks.",
+        color: "#F4CA33"
     },
     {
         title: "Celebrities",
-        text: "Have a large fanbase, following or are an established creator? We are open to doing VIP partner deals. We can give VIP support and promotion such as with NFT auctions and frontpage placements."
+        text: "Have a large fanbase, following or are an established creator? We are open to doing VIP partner deals. We can give VIP support and promotion such as with NFT auctions and frontpage placements.",
+        color: "#04CC00"
     }
 ];

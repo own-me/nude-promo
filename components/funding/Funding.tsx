@@ -14,6 +14,7 @@ const FundingHeader = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     color: #2A2825;
+    margin-bottom: 50px;
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }
@@ -43,8 +44,8 @@ export default function Funding() {
             }
             <FundingCardsContainer>
                 {
-                    fundingCardData.map(({ title, text }, index) => {
-                        return <FundingCard title={title} text={text} key={index} />
+                    fundingCardData.map(({ title, text, color }, index) => {
+                        return <FundingCard title={title} text={text} color={color} key={index} />
                     })
                 }
             </FundingCardsContainer>

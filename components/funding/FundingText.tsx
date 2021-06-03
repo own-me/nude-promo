@@ -4,7 +4,7 @@ import styled from "styled-components";
 const FundingTextContainer = styled.div`
     font-family: Poppins, Open Sans;
     font-size: 30px;
-    padding: 20px 100px;
+    padding: 20px 10%;
 `;
 
 const BoldText = styled.span`
