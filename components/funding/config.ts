@@ -20,7 +20,7 @@ export const fundingTextData = [
 export const fundingCardData = [
     {
         title: "Investors",
-        text: "We are looking for angel investment to grow the team and get everyone working full-time. Get in touch with us if your intrested in owning an early chunk of the company.",
+        text: "We are looking for investment to grow the team and get everyone working full-time. Get in touch with us if your intrested in owning an early chunk of the company and/or you have experience raising rounds.",
         color: "#E95FFF"
     },
     {
@@ -30,7 +30,7 @@ export const fundingCardData = [
     },
     {
         title: "Wall of Fame",
-        text: "Patrons and Investors can be included in our Wall of Fame. Plug your company, twitter, name and leave a unique message. Wall of Fame members can get some perks.",
+        text: "Patrons and Investors can be included in our Wall of Fame. Plug your company, twitter, name and leave a unique message. Wall of Fame members can get some perks and access to limited edition NFTs.",
         color: "#F4CA33"
     },
     {

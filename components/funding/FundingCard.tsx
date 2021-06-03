@@ -3,6 +3,10 @@ import styled from "styled-components";
 
 const FundingCardContainer = styled.div`
     margin: 30px;
+
+    @media screen and (max-width: 600px) {
+        margin: 30px 5px;
+    }
 `;
 
 const FundingCardTitle = styled.div`
@@ -20,6 +24,11 @@ const FundingCardBox = styled.div<{ $borderColor: string }>`
     width: 500px;
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+
+    @media screen and (max-width: 600px) {
+        width: 80%;
+        height: 100%;
+    }
 `;
 
 const FundingCardText = styled.div`

@@ -21,6 +21,7 @@ const FundingHeader = styled.div`
     @media screen and (max-width: 600px) {
         font-size: 40px;
         text-align: center;
+        margin-bottom: 20px;
     }
 `;
 
@@ -31,6 +32,10 @@ const FundingCardsContainer = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin: 40px 0px;
+
+    @media screen and (max-width: 600px) {
+        margin: 10px 0px;
+    }
 `;
 
 export default function Funding() {
