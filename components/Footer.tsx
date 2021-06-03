@@ -4,6 +4,7 @@ import discordIcon from "../media/icons/discord/negative.svg";
 import instagramIcon from "../media/icons/instagram/negative.svg";
 import linkedinIcon from "../media/icons/linkedin/negative.svg";
 import mediumIcon from "../media/icons/medium/negative.svg";
+import matrixIcon from "../media/icons/matrix/negative.svg";
 import telegramIcon from "../media/icons/telegram/negative.svg";
 import twitterIcon from "../media/icons/twitter/negative.svg";
 import lolipop from "../media/lolipop.svg";
@@ -25,10 +26,15 @@ const socialIcons = [
         icon: linkedinIcon,
         url: socialLinks.linkedin.url
     },
+    // {
+    //     key: "medium",
+    //     icon: mediumIcon,
+    //     url: socialLinks.medium.url
+    // },
     {
-        key: "medium",
-        icon: mediumIcon,
-        url: socialLinks.medium.url
+        key: "matrix",
+        icon: matrixIcon,
+        url: socialLinks.matrix.url
     },
     {
         key: "telegram",
