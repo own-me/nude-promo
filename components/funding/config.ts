@@ -1,18 +1,18 @@
 export const fundingTextData = [
     {
-        boldText: "Current Funding Status:",
+        boldText: "Current Funding Status: ",
         mainText: "Bootstraped and working other jobs."
     },
     {
-        boldText: "Funding Goals:",
+        boldText: "Funding Goals: ",
         mainText: "Get the team working full-time properly paid to speed up development, improve quality and hire more specialists."
     },
     {
-        boldText: "Why give us money?",
+        boldText: "Why give us money? ",
         mainText: "There is billions of dollars in this emerging industry and we beleive Own Me can be a top player. We think we have a hot brand and a logical business model to generate profitable revenue."
     },
     {
-        boldText: "Pitch Deck or White Paper?",
+        boldText: "Pitch Deck or White Paper? ",
         mainText: "Working on it... want to help?"
     }
 ];

@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import FundingText from "./FundingText";
+import { fundingTextData, fundingCardData } from "./config";
 
 const FundingContainer = styled.div`
-    display: flex;
+    
 `;
 
 const FundingHeader = styled.div`
@@ -24,6 +26,11 @@ export default function Funding() {
     return (
         <FundingContainer>
             <FundingHeader>Funding</FundingHeader>
+            {
+                fundingTextData.map(({ boldText, mainText }, index) => {
+                    return <FundingText boldText={boldText} mainText={mainText} key={index} />
+                })
+            }
         </FundingContainer>
     );
 };
