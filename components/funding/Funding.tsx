@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import FundingText from "./FundingText";
+import FundingCard from "./FundingCard";
 import { fundingTextData, fundingCardData } from "./config";
 
 const FundingContainer = styled.div`
@@ -22,6 +23,15 @@ const FundingHeader = styled.div`
     }
 `;
 
+const FundingCardsContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0px;
+`;
+
 export default function Funding() {
     return (
         <FundingContainer>
@@ -31,6 +41,13 @@ export default function Funding() {
                     return <FundingText boldText={boldText} mainText={mainText} key={index} />
                 })
             }
+            <FundingCardsContainer>
+                {
+                    fundingCardData.map(({ title, text }, index) => {
+                        return <FundingCard title={title} text={text} key={index} />
+                    })
+                }
+            </FundingCardsContainer>
         </FundingContainer>
     );
 };
