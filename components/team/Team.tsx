@@ -13,6 +13,7 @@ const TeamHeader = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     color: #2A2825;
+
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }
@@ -27,7 +28,9 @@ const TeamGrid = styled.div`
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
     padding: 100px 0px 20px 0px;
+
     @media screen and (max-width: 600px) {
         padding: 20px 0px;
     }
@@ -39,6 +42,7 @@ const TeamMissingGrid = styled.div`
     align-content: center;
     flex-wrap: wrap;
     padding: 0px 0px 100px 0px;
+    
     @media screen and (max-width: 600px) {
         padding: 0px 0px 20px 0px;
     }
@@ -50,8 +54,8 @@ export default function Team() {
             <TeamHeader>Our Team</TeamHeader>
             <TeamGrid>
                 {
-                    teamData.map(({ name, image, title, color }, index) => {
-                        return <TeamProfile name={name} image={image} title={title} color={color} key={index} />
+                    teamData.map(({ name, image, title, color, socials }, index) => {
+                        return <TeamProfile name={name} image={image} title={title} color={color} key={index} socials={socials} />
                     })
                 }
             </TeamGrid>

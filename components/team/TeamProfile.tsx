@@ -38,7 +38,16 @@ const ProfileTitle = styled.div`
     font-size: 20px;
 `;
 
-export default function TeamProfile({ name, image, title, color }) {
+const ProfileSocialsContainer = styled.div`
+    
+`;
+
+const ProfileSocialIcon = styled.img`
+    padding: 12px;
+    height: 22px;
+`;
+
+export default function TeamProfile({ name, image, title, color, socials = [] }) {
     return (
         <ProfileContainer>
             <ProfileImage src={image} $color={color} />
@@ -46,6 +55,13 @@ export default function TeamProfile({ name, image, title, color }) {
                 <ProfileName>{name}</ProfileName>
                 <ProfileTitle>{title}</ProfileTitle>
             </ProfileTextContainer>
+            <ProfileSocialsContainer>
+                {
+                    socials.map(({ icon, url }, index) => {
+                        return <a href={url} target="_blank" key={index}><ProfileSocialIcon src={icon} /></a>
+                    })
+                }
+            </ProfileSocialsContainer>
         </ProfileContainer>
     );
 };
