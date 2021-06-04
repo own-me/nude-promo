@@ -1,13 +1,25 @@
 import chrisImage from "../../media/team/chris.jpg";
 import sylviaImage from "../../media/team/sylvia.jpg";
 import tobiImage from "../../media/team/tobi.jpg";
+import githubIcon from "../../media/icons/github/black.svg";
+import linkedinIcon from "../../media/icons/linkedin/black.svg";
 
 export const teamData = [
     {
         name: "Christopher Trimboli",
         image: chrisImage,
         title: "CEO | Lead Web Engineer",
-        color: "#FF9900"
+        color: "#FF9900",
+        socials: [
+            {
+                icon: githubIcon,
+                url: "https://github.com/ChristopherTrimboli"
+            },
+            {
+                icon: linkedinIcon,
+                url: "https://www.linkedin.com/in/christophertrimboli/"
+            }
+        ]
     },
     {
         name: "Sylvia Makuch",

@@ -67,6 +67,6 @@ export const socialLinks: Record<string, socialLink> = {
     matrix: {
         key: "matrix",
         title: "Matrix",
-        url: "https://matrix.to/#/!JeELUVxLFQdwdOrgzD:matrix.org?via=matrix.org"
+        url: "_"
     }
 };
