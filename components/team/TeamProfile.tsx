@@ -17,6 +17,8 @@ const ProfileImage = styled.img<{ $color: string }>`
     border-radius: 100%;
     border: 8px solid ${props => props.$color};
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    
     @media screen and (max-width: 600px) {
         height: 200px;
         width: 200px;

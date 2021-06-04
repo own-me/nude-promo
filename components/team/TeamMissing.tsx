@@ -23,6 +23,7 @@ const MissingImage = styled.img`
     border-radius: 100%;
     border: 8px solid grey;
     margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 `;
 
 const TextContainer = styled.div`
