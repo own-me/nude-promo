@@ -12,7 +12,6 @@ const FundingHeader = styled.div`
     font-size: 70px;
     line-height: 2.0;
     letter-spacing: 2.0;
-    color: #2A2825;
     margin-bottom: 50px;
     @media screen and (max-width: 1200px) {
         font-size: 40px;

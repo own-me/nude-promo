@@ -11,7 +11,6 @@ const MainFeaturesHeader = styled.div`
     font-size: 70px;
     line-height: 2.0;
     letter-spacing: 2.0;
-    color: #2A2825;
 
     @media screen and (max-width: 1200px) {
         font-size: 45px;

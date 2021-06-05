@@ -14,7 +14,6 @@ const MainText = styled.div`
     font-size: 55px;
     line-height: 2.0;
     letter-spacing: 2.0;
-    color: #2A2825;
     margin: 20px 0px;
     @media screen and (max-width: 1200px) {
         font-size: 40px;
@@ -37,7 +36,6 @@ const FancyTextNFTs = styled.span`
 
 const SubText = styled.div`
     font-family: Shadows Into Light, Open Sans;
-    color: #2A2825;
     font-size: 35px;
     margin: 20px 0px 40px 20px;
     letter-spacing: 2.0;
