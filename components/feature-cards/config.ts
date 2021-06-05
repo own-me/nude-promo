@@ -12,13 +12,13 @@ export const featureCardsData = [
     {
         title: "Ownership",
         icon: punchImage,
-        text: "Take back control of your content through the power of decentralized NFT technology. When you publish or purchase  content, it is safe inside the public blockchain.",
+        text: "Take back control of your content through the power of decentralized NFT technology. When you publish or purchase content, it is safe inside the public blockchain.",
         background: "#FF51E3"
     },
     {
         title: "More Profits",
         icon: moneyBagImage,
-        text: "Get more of your value back from your fans. We implement a competitive earnings model for our creators. We are not constricted by VISA and banks because we use cryptocurrency.",
+        text: "Get more of your value back from your fans. We implement a competitive earnings model for our creators. We are not constricted by VISA and big banks.",
         background: "#17C7FF"
     }
 ];
