@@ -32,10 +32,11 @@ const NavLinksContainer = styled.div`
 const NavLink = styled.span`
     margin: 0 20px;
     cursor: pointer;
-    border-bottom: 2px transparent solid;
+    border-bottom: 3px transparent solid;
+    transition: all 0.5s ease-out;
 
     :hover {
-        border-bottom: 2px #d6a8ff solid;
+        border-bottom: 3px #b569f8 solid;
     }
 `;
 
