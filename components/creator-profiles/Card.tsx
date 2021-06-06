@@ -2,28 +2,42 @@ import React from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-    min-height: 800px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    font-family: Poppins, Open Sans;
-    margin-top: 50px;
+    width: 50%;
 
     @media screen and (max-width: 1200px) {
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding: 50px 0px;
+        width: 100%;
     }
     @media screen and (max-width: 600px) {
-        padding: 20px 0px;
+        margin: 20px 0px;
+    }
+`;
+
+const Title = styled.div<{ $color: string }>`
+    font-size: 30px;
+    font-family: Rock Salt, Open Sans;
+    color: ${props => props.$color};
+
+    @media screen and (max-width: 600px) {
+        font-size: 22px;
+    }
+`;
+
+const Text = styled.div`
+    font-size: 25px;
+    font-family: Poppins, Open Sans;
+    padding: 10px 40px 40px 10px;
+
+    @media screen and (max-width: 600px) {
+        padding: 5px;
+        font-size: 20px;
     }
 `;
 
 export default function Card({ title, text, color }) {
     return (
         <CardContainer>
-
+            <Title $color={color}>{title}</Title>
+            <Text>{text}</Text>
         </CardContainer>
     );
 };

@@ -12,7 +12,7 @@ export const cardData = [
     {
         title: "NFT Auctions",
         text: "Create, promote and manage your unique NFT auctions. Direct your fans from any platform to your auctions section. Make sure you get the most profit from your fans.",
-        color: "#FB33FF"
+        color: "#FF7917"
     },
     {
         title: "Timeline",

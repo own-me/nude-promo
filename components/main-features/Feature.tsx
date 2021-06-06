@@ -74,7 +74,7 @@ const FeatureTextHeader = styled.div`
 `;
 
 const FeatureText = styled.div`
-    font-size: 30px;
+    font-size: 28px;
     text-align: left;
     margin: 50px 0px;
     font-family: Poppins, Open Sans;

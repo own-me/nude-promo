@@ -5,31 +5,45 @@ import {cardData} from "./config";
 
 const CreatorProfilesContainer = styled.div`
     min-height: 800px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    font-family: Poppins, Open Sans;
     margin-top: 50px;
+`;
+
+const CardGrid = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    padding: 75px;
+
+    @media screen and (max-width: 600px) {
+        padding: 10px;
+    }
+`;
+
+const MainHeader = styled.div`
+    font-family: Yeseva One, Open Sans;
+    font-size: 70px;
+    line-height: 2.0;
+    letter-spacing: 2.0;
 
     @media screen and (max-width: 1200px) {
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding: 50px 0px;
+        font-size: 45px;
     }
     @media screen and (max-width: 600px) {
-        padding: 20px 0px;
+        font-size: 32px;
+        text-align: center;
     }
 `;
 
 export default function CreatorProfiles() {
     return (
         <CreatorProfilesContainer>
-            {
-                cardData.map(({ title, text, color }, index) => {
-                    return <Card title={title} text={text} color={color} key={index} />
-                })
-            }
+            <MainHeader>Creator Profiles</MainHeader>
+            <CardGrid>
+                {
+                    cardData.map(({ title, text, color }, index) => {
+                        return <Card title={title} text={text} color={color} key={index} />
+                    })
+                }
+            </CardGrid>
         </CreatorProfilesContainer>
     );
 };
