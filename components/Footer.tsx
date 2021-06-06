@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import styled from "styled-components";
 import discordIcon from "../media/icons/discord/negative.svg";
 import instagramIcon from "../media/icons/instagram/negative.svg";
@@ -162,7 +162,7 @@ export default function Footer() {
                 <Lolipop src={lolipop} />
                 <FootnoteText>
                     <div>Made by The Digital Labs</div>
-                    <Copyright>© {new Date().getFullYear()} Own Me</Copyright>
+                    <Copyright>&#169; {new Date().getFullYear()} Own Me</Copyright>
                 </FootnoteText>
             </FootnoteContainer>
         </FooterContainer>
