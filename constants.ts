@@ -42,7 +42,7 @@ export const socialLinks: Record<string, socialLink> = {
     twitter: {
         key: "twitter",
         title: "Twitter",
-        url: "https://twitter.com/Own_Me_NFT"
+        url: "https://twitter.com/own_me_nft"
     },
     instagram: {
         key: "instagram",
@@ -54,19 +54,19 @@ export const socialLinks: Record<string, socialLink> = {
         title: "LinkedIn",
         url: "https://www.linkedin.com/company/own-me-nft"
     },
-    // medium: {
-    //     key: "medium",
-    //     title: "Medium",
-    //     url: "_"
-    // },
+    medium: {
+        key: "medium",
+        title: "Medium",
+        url: "https://medium.com/@own.me.nft"
+    },
     telegram: {
         key: "telegram",
         title: "Telegram",
         url: "https://t.me/own_me_nft"
     },
-    matrix: {
-        key: "matrix",
-        title: "Matrix",
-        url: "_"
-    }
+    // matrix: {
+    //     key: "matrix",
+    //     title: "Matrix",
+    //     url: "_"
+    // }
 };

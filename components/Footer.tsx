@@ -26,16 +26,16 @@ const socialIcons = [
         icon: linkedinIcon,
         url: socialLinks.linkedin.url
     },
-    // {
-    //     key: "medium",
-    //     icon: mediumIcon,
-    //     url: socialLinks.medium.url
-    // },
     {
-        key: "matrix",
-        icon: matrixIcon,
-        url: socialLinks.matrix.url
+        key: "medium",
+        icon: mediumIcon,
+        url: socialLinks.medium.url
     },
+    // {
+    //     key: "matrix",
+    //     icon: matrixIcon,
+    //     url: socialLinks.matrix.url
+    // },
     {
         key: "telegram",
         icon: telegramIcon,
