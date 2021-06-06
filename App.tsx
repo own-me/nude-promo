@@ -14,6 +14,7 @@ import Roadmap from "./components/roadmap/Roadmap";
 import MainFeatures from "./components/main-features/MainFeatures";
 import Team from "./components/team/Team";
 import Funding from "./components/funding/Funding";
+import CreatorProfiles from "./components/creator-profiles/CreatorProfiles";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <TopNav />
                 <Hero />
                 <MainFeatures />
+                <CreatorProfiles />
                 <FeatureCards />
                 <TokenTalk />
                 <Team />
