@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TokenTalkContainer = styled.div`
-    padding: 40px 0px;
+    padding: 75px 0px;
 `;
 
 const TokenTalkHeader = styled.div`

@@ -9,6 +9,10 @@ const ProfileContainer = styled.div`
     flex-direction: column;
     text-align: center;
     margin: 50px;
+
+    @media screen and (max-width: 600px) {
+        margin: 35px 0px;
+    }
 `;
 
 const ProfileImage = styled.img<{ $color: string }>`

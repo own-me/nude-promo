@@ -6,7 +6,7 @@ import bitch from "../../media/bitch.png";
 import banner from "../../media/banner.png";
 
 const HeroContainer = styled.div`
-    margin: 100px 50px 50px 0px;
+    margin: 7vh 50px 50px 0px;
     height: calc(100% - 50px);
 
     @media screen and (max-width: 1200px) {

@@ -34,6 +34,10 @@ const FundingCardBox = styled.div<{ $borderColor: string }>`
 const FundingCardText = styled.div`
     font-family: Poppins, Open Sans;
     font-size: 22px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+    }
 `;
 
 export default function FundingCard({ title, text, color }) {

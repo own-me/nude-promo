@@ -4,7 +4,6 @@ import FeatureCard from "./FeatureCard";
 import { featureCardsData } from "./config";
 
 const FeatureCardsContainer = styled.div`
-    min-height: 800px;
     display: flex;
     align-content: center;
     justify-content: center;
