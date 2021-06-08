@@ -18,7 +18,7 @@ export const featureCardsData = [
     {
         title: "More Profits",
         icon: moneyBagImage,
-        text: "Get more of your value back from your fans. We implement a competitive earnings model for our creators. We are not constricted by VISA and big banks.",
+        text: "Get more of your value back from your fans. We implement a competitive earnings model for our creators. We are not constricted by VISA or big banks.",
         background: "#17C7FF"
     }
 ];
