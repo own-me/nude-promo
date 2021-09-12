@@ -1,7 +1,7 @@
 export const fundingTextData = [
     {
         boldText: "Current Funding Status: ",
-        mainText: "Bootstraped and working other jobs."
+        mainText: "Bootstrapped and working other jobs."
     },
     {
         boldText: "Funding Goals: ",
