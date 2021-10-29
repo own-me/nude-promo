@@ -1,6 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
+const HiddenRow = styled.div`
+    width:100%;
+    display: flexbox;
+    align-items: center;
+    align-content: stretch; 
+    gap: 5.5em;
+    
+    `;
 const ModerationRowContainer = styled.div<{ backgroundColor: string }>`
     height: 200px;
     max-width: 50%;
@@ -25,12 +33,22 @@ const Text = styled.div`
     color: white;
     font-size: 20px;
     font-family: Poppins,Open Sans;
+
+`;
+const ModImg = styled.img`
+    width:200px ;
+   justify-content:center;
 `;
 export default function ModerationRow({ title, text, image, backgroundColor }) {
     return (
-        <ModerationRowContainer backgroundColor={backgroundColor}>
+        <HiddenRow>
+            <ModerationRowContainer backgroundColor={backgroundColor}>
             <Title>{title}</Title>
             <Text>{text}</Text>
-        </ModerationRowContainer>
+            </ModerationRowContainer>
+            <ModImg src={image} />
+        </HiddenRow>
+        
+
     );
 };
