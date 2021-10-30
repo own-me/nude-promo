@@ -60,6 +60,7 @@ const ModImg = styled.img`
 
     @media screen and (max-width: 1200px) {
         justify-content: center;
+        padding: 60px 0px;
     }
 `;
 
