@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
 const HiddenRow = styled.div`
     width:100%;
     display: flexbox;
@@ -49,14 +48,14 @@ const Text = styled.div`
     font-size: 20px;
     font-family: Poppins,Open Sans;
     text-align: center;
-    
+
     @media screen and (max-width: 600px) {
         margin-top: 20%;
     }
 `;
 
 const ModImg = styled.img`
-    width:200px ;
+    width: 200px;
     justify-content:center;
 
     @media screen and (max-width: 1200px) {

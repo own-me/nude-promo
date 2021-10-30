@@ -10,7 +10,6 @@ export const moderationData = [
         image: idVerification,
         backgroundColor: "#FBA7FF"
     },
-
     {
         title: "NFT Approval Process",
         text: "To make sure the community stays safe and content is acceptable, we have a human + AI moderation process for all creator’s newly minted NFTs.",
