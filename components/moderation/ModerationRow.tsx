@@ -62,6 +62,7 @@ const ModImg = styled.img`
         justify-content: center;
     }
 `;
+
 export default function ModerationRow({ title, text, image, backgroundColor }) {
     return (
         <HiddenRow>
