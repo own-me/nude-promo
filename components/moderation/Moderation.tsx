@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { moderationData } from "./config";
 import ModerationRow from "./ModerationRow";
 
-
 const ModerationContainer = styled.div`
     z-index: 1;
 `;
@@ -18,7 +17,6 @@ const ModerationHeader = styled.div`
         font-size: 32px;
         text-align: center;
         }
-
 `;
 
 export default function Moderation() {
@@ -27,20 +25,17 @@ export default function Moderation() {
             <ModerationHeader>
                 Moderation and Safety
             </ModerationHeader>
-        
-           
             {
                 moderationData.map(({ title, image, text, backgroundColor }, index) => {
-                    return <ModerationRow 
-                                title={title} 
-                                image={image} 
-                                text={text} 
-                                backgroundColor={backgroundColor} 
-                                key={index} 
-                            />
+                    return <ModerationRow
+                        title={title}
+                        image={image}
+                        text={text}
+                        backgroundColor={backgroundColor}
+                        key={index}
+                    />
                 })
             }
-            
         </ModerationContainer>
     );
 };

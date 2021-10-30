@@ -25,7 +25,7 @@ const ModerationRowContainer = styled.div<{ backgroundColor: string }>`
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     margin: 30px;   
-        @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
         height: 400px;
         max-width: 300px;
         }
@@ -37,7 +37,7 @@ const Title = styled.h2`
     margin-bottom: 10px;
     font-size: 30px;
     font-family: Rock Salt, Open Sans;
-        @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         font-size: 24px;
         }
 `;
@@ -61,7 +61,6 @@ const ModImg = styled.img`
 `;
 export default function ModerationRow({ title, text, image, backgroundColor }) {
     return (
-
         <HiddenRow>
             <ModerationRowContainer backgroundColor={backgroundColor}>
                 <Title>{title}</Title>
@@ -69,8 +68,5 @@ export default function ModerationRow({ title, text, image, backgroundColor }) {
             </ModerationRowContainer>
             <ModImg src={image} />
         </HiddenRow>
-
-
-
     );
 };

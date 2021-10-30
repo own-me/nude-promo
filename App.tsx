@@ -16,7 +16,6 @@ import Team from "./components/team/Team";
 import Funding from "./components/funding/Funding";
 import CreatorProfiles from "./components/creator-profiles/CreatorProfiles";
 import Moderation from "./components/moderation/Moderation";
-
 function App() {
     return (
         <>

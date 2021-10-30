@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TokenTalkContainer = styled.div`
-    padding: 50px   0px;
+    padding: 75px 0px;
 `;
 
 const TokenTalkHeader = styled.div`
@@ -56,7 +56,7 @@ export default function TokenTalk() {
     return (
         <TokenTalkContainer id="token-talk">
             <TokenTalkHeader>$NUDE and $NUDENFT Tokens</TokenTalkHeader>
-            <TokenTalkText>We will be launching an ERC-20 and ERC-721 used for in-app transactions, NFT minting, governance, staking, investing and all that good tokenomics sauce we expect from crypto projects.</TokenTalkText>
+            <TokenTalkText>We will be launching an ERC-20 and ERC-721 token used for in-app transactions, NFT minting, governance, staking, investing and all that good tokenomics sauce we expect from crypto projects.</TokenTalkText>
             <TokenTalkSubHeader>How are we unique?</TokenTalkSubHeader>
             <TokenTalkText>Believe it or not, we are not a pump and dump.</TokenTalkText>
             <TokenTalkText>We will be deploying our tokens to mainnet only when we have a fully functioning app to use them with. This allows for proper auditing, testing and community input.</TokenTalkText>
