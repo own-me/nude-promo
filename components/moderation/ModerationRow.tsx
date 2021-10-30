@@ -28,7 +28,7 @@ const ModerationRowContainer = styled.div<{ backgroundColor: string }>`
     @media screen and (max-width: 1200px) {
         height: 400px;
         max-width: 300px;
-        }
+    }
 `;
 
 const Title = styled.h2`
@@ -37,9 +37,10 @@ const Title = styled.h2`
     margin-bottom: 10px;
     font-size: 30px;
     font-family: Rock Salt, Open Sans;
+
     @media screen and (max-width: 600px) {
         font-size: 24px;
-        }
+    }
 `;
 
 const Text = styled.div`
@@ -54,7 +55,8 @@ const Text = styled.div`
 
 const ModImg = styled.img`
     width:200px ;
-   justify-content:center;
+    justify-content:center;
+    
     @media screen and (max-width: 1200px) {
         justify-content: center;
     }

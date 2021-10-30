@@ -13,10 +13,11 @@ const ModerationHeader = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     padding:50px 0px;
-        @media screen and (max-width: 1200px) {
+
+    @media screen and (max-width: 1200px) {
         font-size: 32px;
         text-align: center;
-        }
+    }
 `;
 
 export default function Moderation() {
