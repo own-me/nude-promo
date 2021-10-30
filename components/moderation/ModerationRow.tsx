@@ -25,6 +25,7 @@ const ModerationRowContainer = styled.div<{ backgroundColor: string }>`
     padding: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     margin: 30px;   
+
     @media screen and (max-width: 1200px) {
         height: 400px;
         max-width: 300px;
@@ -48,6 +49,7 @@ const Text = styled.div`
     font-size: 20px;
     font-family: Poppins,Open Sans;
     text-align: center;
+    
     @media screen and (max-width: 600px) {
         margin-top: 20%;
     }
@@ -56,7 +58,7 @@ const Text = styled.div`
 const ModImg = styled.img`
     width:200px ;
     justify-content:center;
-    
+
     @media screen and (max-width: 1200px) {
         justify-content: center;
     }

@@ -23,5 +23,4 @@ export const moderationData = [
         image: blockingUser,
         backgroundColor: "#FF51E3"
     },
-
 ];
