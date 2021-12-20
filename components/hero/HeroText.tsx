@@ -38,7 +38,7 @@ const SubText = styled.div`
     font-family: Shadows Into Light, Open Sans;
     font-size: 30px;
     margin: 20px 0px 40px 20px;
-    letter-spacing: 2.0;
+    letter-spacing: 3px;
 
     @media screen and (max-width: 1200px) {
         font-size: 30px;
