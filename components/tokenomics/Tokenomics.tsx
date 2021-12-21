@@ -4,7 +4,6 @@ import styled from "styled-components";
 import NudeNftSection from "./NudeNftSection";
 
 const TokenomicsContainer = styled.div`
-    padding: 150px 0px;
 `;
 
 const Header = styled.div`
@@ -38,7 +37,11 @@ const SubHeader = styled.div`
     }
 `;
 
-const SectionHeaderContainer = styled.div`
+const SectionContainer1 = styled.div`
+    padding-bottom: 175px;
+`;
+
+const SectionContainer2 = styled.div`
 
 `;
 
@@ -72,10 +75,9 @@ const SectionSubHeader = styled.span`
 `;
 
 const SectionContent = styled.div`
-    padding: 100px 0px 200px 20px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
 `;
 
 const LeftSection = styled.div`
@@ -87,6 +89,7 @@ const LeftItem = styled.div`
     font-size: 22px;
     padding: 20px 0px;
     font-weight: 600;
+    width: 250px;
 `;
 
 const PieSection = styled.div`
@@ -139,6 +142,9 @@ const LegendText = styled.div`
     padding-left: 10px;
 `;
 
+const Line = styled.hr`
+
+`;
 
 const Tokenomics = memo((props) => {
     const ref = useRef();
@@ -188,14 +194,14 @@ const Tokenomics = memo((props) => {
                 <SubHeader>{"Functionality > Speculation"}</SubHeader>
             </Header>
 
-            <SectionHeaderContainer>
+            <SectionContainer1>
                 <SectionHeader>$NUDE</SectionHeader>
                 <SectionSubHeader>MATIC(ERC20)</SectionSubHeader>
                 <SectionContent>
                     <LeftSection>
-                        <LeftItem>Governance <hr /></LeftItem>
-                        <LeftItem>Gas Free <hr /></LeftItem>
-                        <LeftItem>Fixed Supply <hr /></LeftItem>
+                        <LeftItem>Governance <Line /></LeftItem>
+                        <LeftItem>Gas Free <Line /></LeftItem>
+                        <LeftItem>Fixed Supply <Line /></LeftItem>
                     </LeftSection>
                     <PieSection>
                         <PieTitle>Token Allocation</PieTitle>
@@ -225,15 +231,15 @@ const Tokenomics = memo((props) => {
                         </LegendItem>
                     </LegendSection>
                 </SectionContent>
-            </SectionHeaderContainer>
+            </SectionContainer1>
 
-            <SectionHeaderContainer>
+            <SectionContainer2>
                 <SectionHeader>$NUDE_NFT</SectionHeader>
                 <SectionSubHeader>MATIC(ERC721)</SectionSubHeader>
                 <SectionContent>
                     <NudeNftSection />
                 </SectionContent>
-            </SectionHeaderContainer>
+            </SectionContainer2>
 
         </TokenomicsContainer>
     );

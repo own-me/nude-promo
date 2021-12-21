@@ -26,8 +26,8 @@ function App() {
                 <CreatorProfiles />
                 <FeatureCards />
                 <Tokenomics />
-                <Team />
                 <Roadmap />
+                <Team />
                 <Funding />
             </AppLayout>
             <Footer />

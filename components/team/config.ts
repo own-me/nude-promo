@@ -24,13 +24,13 @@ export const teamData = [
     {
         name: "Sylvia Makuch",
         image: sylviaImage,
-        title: "Designer | Digital Artist | Junior Frontend Engineer",
+        title: "Digital Artist | Junior Frontend Engineer",
         color: "#FD95FF"
     },
     {
         name: "Tobi Trimboli",
         image: tobiImage,
-        title: "Head of Security and HR | Senior Tuna Inspector",
+        title: "Head of Security | Pussy Inspector",
         color: "#6FBAFF"
     },
 ];

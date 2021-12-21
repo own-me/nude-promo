@@ -9,6 +9,7 @@ const FeatureCardsContainer = styled.div`
     justify-content: center;
     align-items: center;
     font-family: Poppins, Open Sans;
+    padding-bottom: 100px;
 
     @media screen and (max-width: 1200px) {
         flex-wrap: wrap;

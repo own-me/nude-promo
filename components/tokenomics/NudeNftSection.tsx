@@ -5,7 +5,6 @@ import fireLogo from "../../media/tokenomics/fire.png";
 import lockLogo from "../../media/tokenomics/lock.png";
 import moneyBagLogo from "../../media/tokenomics/money-bag.png";
 
-
 const NudeNftContainer = styled.div`
     display: flex;
 
@@ -46,30 +45,21 @@ const NudeNftSection = memo((props) => {
             <Section>
                 <Item>
                     <Icon src={polygonLogo} />
-                    <Text>Gas-free marketplace with Polygon Network. Compatible with Opensea.</Text>
+                    <Text><b>Gas-free</b> NFT marketplace with Polygon Network. Compatible with Opensea.</Text>
                 </Item>
                 <Item>
                     <Icon src={lockLogo} />
-                    <Text>Encrypted content with Pinata Submarining. Mint a private NUDE NFT only the owner can view.</Text>
+                    <Text><b>Encrypted content</b> with Pinata Submarining. Mint a private NUDE NFT only the owner can view.</Text>
                 </Item>
-                <Item>
-                    <Icon src={moneyBagLogo} />
-                    <Text>Own Me takes a 0.69% tax on NFT transactions to support our team and community. This is 10x - 25x less fees then some leading adult content apps.</Text>
-                </Item>
-
             </Section>
             <Section>
                 <Item>
                     <Icon src={fireLogo} />
-                    <Text>Safely burnable and destructible by moderators and creators.</Text>
-                </Item>
-                <Item>
-                    <Icon src={lockLogo} />
-                    <Text>Encrypted content with Pinata Submarining. Mint a private NUDE NFT only the owner can view.</Text>
+                    <Text>Safely <b>burnable</b> and <b>destructible</b> by moderators and creators.</Text>
                 </Item>
                 <Item>
                     <Icon src={moneyBagLogo} />
-                    <Text>Own Me takes a 0.69% tax on NFT transactions to support our team and community. This is 10x - 25x less fees then some leading adult content apps.</Text>
+                    <Text>Own Me takes a <b>0.69% tax</b> on NFT transactions to support our team and community. This is <b>10x - 25x less fees</b> then leading adult content apps.</Text>
                 </Item>
             </Section>
         </NudeNftContainer>
