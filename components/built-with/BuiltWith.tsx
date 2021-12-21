@@ -48,7 +48,7 @@ const BuiltWithIcons = styled.img`
 export default function BuiltWith() {
     return (
         <BuiltWithContainer>
-            <BuiltWithHeader>Built With..</BuiltWithHeader>
+            <BuiltWithHeader>Built With...</BuiltWithHeader>
             <BuiltWithTeamGrid>
                 {builtWithData.map((value, index) => {
                     return <a href={value.url} target="blank" key={index} ><BuiltWithIcons src={value.icon} /> </a>
