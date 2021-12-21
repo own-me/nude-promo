@@ -16,7 +16,6 @@ const Header = styled.div`
         font-size: 40px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 32px;
         text-align: center;
     }
 `;
@@ -39,6 +38,13 @@ const SubHeader = styled.div`
 
 const SectionContainer1 = styled.div`
     padding-bottom: 175px;
+
+    @media screen and (max-width: 1200px) {
+        padding-bottom: 100px;
+    }
+    @media screen and (max-width: 600px) {
+        padding-bottom: 50px;
+    }
 `;
 
 const SectionContainer2 = styled.div`
@@ -70,7 +76,8 @@ const SectionSubHeader = styled.span`
         font-size: 20px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 18px;
+        font-size: 15px;
+        padding-left: 10px;
     }
 `;
 
@@ -78,10 +85,27 @@ const SectionContent = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+    padding: 50px 0px;
+
+    @media screen and (max-width: 1200px) {
+
+    }
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+    }
 `;
 
 const LeftSection = styled.div`
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        text-align: left;
+        padding: 30px 0px;
+    }
+    @media screen and (max-width: 600px) {
 
+    }
 `;
 
 const LeftItem = styled.div`
@@ -90,6 +114,13 @@ const LeftItem = styled.div`
     padding: 20px 0px;
     font-weight: 600;
     width: 250px;
+
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 600px) {
+
+    }
 `;
 
 const PieSection = styled.div`
@@ -119,6 +150,14 @@ const PieSupplyText = styled.div`
 
 const LegendSection = styled.div`
     font-family: Poppins, Open Sans;
+
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    @media screen and (max-width: 1000px) {
+        padding-top: 125px;
+    }
 `;
 
 const LegendItem = styled.div`
@@ -126,6 +165,13 @@ const LegendItem = styled.div`
     align-items: center;
     font-size: 25px;
     padding: 20px 0px;
+
+    @media screen and (max-width: 1200px) {
+
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+    }
 `;
 
 const LegendColor = styled.div`

@@ -11,6 +11,7 @@ const ProfileContainer = styled.div`
     text-align: center;
     margin: 50px;
     width: 25%;
+
     @media screen and (max-width: 600px) {
         margin: 30px 0px;
         width: 100%;

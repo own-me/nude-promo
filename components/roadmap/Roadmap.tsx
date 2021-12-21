@@ -8,6 +8,7 @@ const RoadmapHeader = styled.div`
     font-size: 70px;
     line-height: 2.0;
     letter-spacing: 2.0;
+
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }

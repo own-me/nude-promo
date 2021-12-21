@@ -27,6 +27,14 @@ const Icon = styled.img`
 const Text = styled.div`
     font-size: 25px;
     padding: 40px 30px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 30px 25px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+        padding: 20px;
+    }
 `;
 
 const Section = styled.div`
