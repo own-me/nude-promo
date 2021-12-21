@@ -1,6 +1,7 @@
 import Pie from "chart.js/auto";
 import React, { memo, useEffect, useRef } from "react";
 import styled from "styled-components";
+import NudeNftSection from "./NudeNftSection";
 
 const TokenomicsContainer = styled.div`
     padding: 150px 0px;
@@ -230,7 +231,7 @@ const Tokenomics = memo((props) => {
                 <SectionHeader>$NUDE_NFT</SectionHeader>
                 <SectionSubHeader>MATIC(ERC721)</SectionSubHeader>
                 <SectionContent>
-
+                    <NudeNftSection />
                 </SectionContent>
             </SectionHeaderContainer>
 
