@@ -27,9 +27,9 @@ function App() {
                 <CreatorProfiles />
                 <FeatureCards />
                 <Tokenomics />
-                <BuiltWith />
                 <Roadmap />
                 <Team />
+                <BuiltWith />
                 <Funding />
             </AppLayout>
             <Footer />
