@@ -25,7 +25,17 @@ export const teamData = [
         name: "Sylvia Makuch",
         image: sylviaImage,
         title: "Designer | Digital Artist | Junior Frontend Engineer",
-        color: "#FD95FF"
+        color: "#FD95FF",
+        socials: [
+            {
+                icon: githubIcon,
+                url: "https://github.com/SylviaMakuch"
+            },
+            {
+                icon: linkedinIcon,
+                url: "https://www.linkedin.com/in/sylvia-makuch-6baa4a66/"
+            }
+        ]
     },
     {
         name: "Tobi Trimboli",
