@@ -59,7 +59,7 @@ export default function Hero() {
         <HeroContainer>
             <HeroText />
             <HeroImageMobile src={bitch} />
-                <HeroButton />
+            <HeroButton />
             <HeroImage src={bitch} />
             <HeroBannerImage src={banner} />
         </HeroContainer>

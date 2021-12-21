@@ -9,7 +9,7 @@ import AppLayout from "./components/AppLayout";
 import Hero from "./components/hero/Hero";
 import FeatureCards from "./components/feature-cards/FeatureCards";
 import Footer from "./components/Footer";
-import TokenTalk from "./components/token-talk/TokenTalk";
+import Tokenomics from "./components/tokenomics/Tokenomics";
 import Roadmap from "./components/roadmap/Roadmap";
 import MainFeatures from "./components/main-features/MainFeatures";
 import Team from "./components/team/Team";
@@ -26,10 +26,10 @@ function App() {
                 <MainFeatures />
                 <CreatorProfiles />
                 <FeatureCards />
+                <Tokenomics />
                 <BuiltWith />
-                <TokenTalk />
-                <Team />
                 <Roadmap />
+                <Team />
                 <Funding />
             </AppLayout>
             <Footer />

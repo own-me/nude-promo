@@ -40,7 +40,7 @@ export const teamData = [
     {
         name: "Tobi Trimboli",
         image: tobiImage,
-        title: "Head of Security and HR | Senior Tuna Inspector",
+        title: "Head of Security | Pussy Inspector",
         color: "#6FBAFF"
     },
 ];
