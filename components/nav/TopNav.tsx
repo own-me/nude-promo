@@ -49,7 +49,7 @@ export default function TopNav() {
                 break;
             }
             case '$NUDE': {
-                elem = document.getElementById('token-talk');
+                elem = document.getElementById('tokenomics');
                 break;
             }
             case 'Team': {

@@ -24,7 +24,7 @@ export const teamData = [
     {
         name: "Sylvia Makuch",
         image: sylviaImage,
-        title: "Designer | Digital Artist | Junior Frontend Engineer",
+        title: "Digital Artist | Junior Frontend Engineer",
         color: "#FD95FF",
         socials: [
             {
