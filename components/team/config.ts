@@ -8,7 +8,7 @@ export const teamData = [
     {
         name: "Christopher Trimboli",
         image: chrisImage,
-        title: "CEO | Lead Web Engineer",
+        title: "Founder | CEO | Lead Web3 Engineer",
         color: "#FF9900",
         socials: [
             {
@@ -24,13 +24,23 @@ export const teamData = [
     {
         name: "Sylvia Makuch",
         image: sylviaImage,
-        title: "Designer | Digital Artist",
-        color: "#FD95FF"
+        title: "Digital Artist | Junior Frontend Engineer",
+        color: "#FD95FF",
+        socials: [
+            {
+                icon: githubIcon,
+                url: "https://github.com/SylviaMakuch"
+            },
+            {
+                icon: linkedinIcon,
+                url: "https://www.linkedin.com/in/sylvia-makuch-6baa4a66/"
+            }
+        ]
     },
     {
         name: "Tobi Trimboli",
         image: tobiImage,
-        title: "Chief of Human Relations",
+        title: "Head of Security | Pussy Inspector",
         color: "#6FBAFF"
     },
 ];

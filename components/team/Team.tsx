@@ -40,7 +40,7 @@ const TeamMissingGrid = styled.div`
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 50px 0px;
     
     @media screen and (max-width: 600px) {
         padding: 0px 0px 20px 0px;

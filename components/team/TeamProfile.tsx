@@ -8,7 +8,7 @@ const ProfileContainer = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 50px;
+    margin: 30px;
 
     @media screen and (max-width: 600px) {
         margin: 35px 0px;
@@ -16,8 +16,8 @@ const ProfileContainer = styled.div`
 `;
 
 const ProfileImage = styled.img<{ $color: string }>`
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
     border: 8px solid ${props => props.$color};
     margin-bottom: 20px;
@@ -41,7 +41,9 @@ const ProfileName = styled.div`
 
 const ProfileTitle = styled.div`
     font-family: Poppins, Open Sans;
-    font-size: 20px;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
 `;
 
 const ProfileSocialsContainer = styled.div`

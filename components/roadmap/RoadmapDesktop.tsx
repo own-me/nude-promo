@@ -10,7 +10,8 @@ const RoadmapContainer = styled.div`
     min-height: 40%;
     display: flex;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding-top: 50px;
+
     @media screen and (max-width: 1200px) {
         display: none;
     }

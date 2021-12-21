@@ -36,9 +36,9 @@ const FancyTextNFTs = styled.span`
 
 const SubText = styled.div`
     font-family: Shadows Into Light, Open Sans;
-    font-size: 35px;
+    font-size: 30px;
     margin: 20px 0px 40px 20px;
-    letter-spacing: 2.0;
+    letter-spacing: 3px;
 
     @media screen and (max-width: 1200px) {
         font-size: 30px;
@@ -50,8 +50,12 @@ const SubText = styled.div`
     }
 `;
 
-const ColoredStar = styled.span`
+const Colored1 = styled.span`
     color: #FB74FE;
+`;
+
+const Colored2 = styled.span`
+    color: #4B48FD;
 `;
 
 export default function HeroText() {    
@@ -60,7 +64,7 @@ export default function HeroText() {
             <MainText>
                 Buy, trade, sell, view and promote your hottest digital <FancyTextAssets>"assets"</FancyTextAssets> as <FancyTextNFTs>NFTs</FancyTextNFTs>
             </MainText>
-            <SubText>Promiscuous <ColoredStar>*</ColoredStar> Dangerous <ColoredStar>*</ColoredStar> Lucrative</SubText>
+            <SubText>Our home for <Colored1>adult content </Colored1>in the <Colored2>web3 metaverse.</Colored2></SubText>
         </HeroTextContainer>
     );
 };
