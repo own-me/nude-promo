@@ -3,6 +3,7 @@ import sylviaImage from "../../media/team/sylvia.jpg";
 import tobiImage from "../../media/team/tobi.jpg";
 import githubIcon from "../../media/icons/github/black.svg";
 import linkedinIcon from "../../media/icons/linkedin/black.svg";
+import twitterIcon from "../../media/icons/twitter/black.svg";
 
 export const teamData = [
     {
@@ -18,6 +19,10 @@ export const teamData = [
             {
                 icon: linkedinIcon,
                 url: "https://www.linkedin.com/in/christophertrimboli/"
+            },
+            {
+                icon: twitterIcon,
+                url: "https://twitter.com/C_J_F_T"
             }
         ]
     },
@@ -34,6 +39,10 @@ export const teamData = [
             {
                 icon: linkedinIcon,
                 url: "https://www.linkedin.com/in/sylvia-makuch-6baa4a66/"
+            },
+            {
+                icon: twitterIcon,
+                url: "https://twitter.com/SylviaMakowiec"
             }
         ]
     },
