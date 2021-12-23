@@ -37,11 +37,15 @@ const Title = styled.h2`
     margin-bottom: 10px;
     margin-top: 0;
     font-size: 32px;
-    font-family: Rock Salt, Open Sans;
+    font-family: Poppins, Open Sans;
 
     @media screen and (max-width: 600px) {
         font-size: 24px;
     }
+
+    @media screen and (max-width: 1200px) {
+        padding-top: 12px;
+    }  
 `;
 
 const Text = styled.div`
