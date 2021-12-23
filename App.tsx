@@ -16,6 +16,7 @@ import Team from "./components/team/Team";
 import Funding from "./components/funding/Funding";
 import CreatorProfiles from "./components/creator-profiles/CreatorProfiles";
 import BuiltWith from "./components/built-with/BuiltWith";
+import Moderation from "./components/moderation/Moderation";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                 <FeatureCards />
                 <Tokenomics />
                 <Roadmap />
+                <Moderation />
                 <Team />
                 <BuiltWith />
                 <Funding />
