@@ -55,6 +55,7 @@ const FooterContainer = styled.div`
         height: 370px;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 35px;
     }
 `;
 
@@ -63,6 +64,11 @@ const SocialsContainer = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        align-items: center;
+    }
 `;
 
 const SocialsHeader = styled.div`
