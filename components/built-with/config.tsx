@@ -3,7 +3,7 @@ import styled from "styled-components";
 import infura from "./../../media/built-with/infura.svg";
 import react from "./../../media/built-with/react.svg";
 import truffle from "./../../media/built-with/truffle.svg";
-import nodejs from "./../../media/built-with/nodejs.svg";
+import fleek from "./../../media/built-with/fleek.svg";
 import pinata from "./../../media/built-with/pinata.svg";
 import polygon from "./../../media/built-with/polygon.svg";
 
@@ -24,9 +24,9 @@ export const builtWithData = [
         url: "https://www.pinata.cloud/",
     },
     {
-        title: "nodejs",
-        icon: nodejs,
-        url: "https://nodejs.org/en/",
+        title: "fleek",
+        icon: fleek,
+        url: "https://fleek.co/",
     },
     {
         title: "react",
