@@ -49,7 +49,7 @@ const Text = styled.div`
 
 const GitHub = styled.img`
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 145px;
 `;
 
 const DevDiscordButton = styled.button`
