@@ -6,7 +6,7 @@ const TextContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   max-width: 530px;
-  margin: 40px;
+  margin: 50px;
 `;
 
 const Title = styled.h2`
