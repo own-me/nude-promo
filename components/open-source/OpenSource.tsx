@@ -6,11 +6,14 @@ import github from "./../../media/github.svg"
 
 const PageContainer = styled.div`
     padding: 20px;
-    margin: 180px 0px 400px 0px;
+    margin: 180px 0px 300px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    @media screen and (max-width: 600px) {
+        margin: 180px 0px 200px 0px;
+        }
 `;
 
 const InnerLeftContainer = styled.div`
@@ -24,6 +27,7 @@ const InnerRightContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 70px;
 `;
 
 const BlueBanner = styled.div`
@@ -50,7 +54,7 @@ const Text = styled.div`
 
 const GitHub = styled.img`
     height: 300px;
-    margin-top: 150px;
+    margin-top: 140px;
 `;
 
 const DevDiscordButton = styled.button`
@@ -61,10 +65,14 @@ const DevDiscordButton = styled.button`
     height: 40px;
     width: 225px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.495));
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
     border: 0px;
-    
     &:hover{
-            border: 3px solid #269ADB
+        transform: rotateX(15deg);
+         box-shadow: 0px 15px 15px #00a8ff;
         }
 `;
 
@@ -75,12 +83,17 @@ const GithubButton = styled.button`
     font-size: 28px;
     height: 85px;
     width: 270px;
-    margin-top: 20px;
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.317));
+    margin-top: 30px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.317));
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
     border: 0px;
 
         &:hover{
-            border: 3px solid #269ADB
+            transform: rotateX(15deg);
+         box-shadow: 0px 15px 15px #e375e3;
         }
 `;
 
