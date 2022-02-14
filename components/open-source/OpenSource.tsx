@@ -37,7 +37,6 @@ const BlueBanner = styled.div`
     width: 130%;
     z-index: -1;
     transform: rotate(-8deg);
-    left: -70px;
 `;
 
 const Title = styled.h2`
