@@ -14,20 +14,22 @@ const Title = styled.h2`
     margin-bottom: 40px;
     font-size: 48px;
     font-family: Yeseva One, Open Sans;
-        @media screen and (max-width: 1200px) {
-            font-size: 40px;
-        }
-        @media screen and (max-width: 600px) {
-            font-size: 35px;
-            margin-top: 0px;
-        }
+    @media screen and (max-width: 1200px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 35px;
+        margin-top: 0px;
+    }
 `;
 
 const Text = styled.div`
     color: black;
     font-size: 26px;
     font-family: Roboto, sans-serif;
-
+    @media screen and (max-width: 1200px) {
+        font-size: 25px;
+    }
     @media screen and (max-width: 600px) {
         font-size: 23px;
     }

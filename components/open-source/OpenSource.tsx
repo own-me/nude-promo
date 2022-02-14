@@ -31,7 +31,7 @@ const InnerRightContainer = styled.div`
 `;
 
 const BlueBanner = styled.div`
-    background-color: #6AF6FF;
+    background-color: #6af6ffbf;
     position: absolute;
     height: 800px;
     width: 130%;
@@ -53,14 +53,14 @@ const Text = styled.div`
 
 const GitHub = styled.img`
     height: 300px;
-    margin-top: 120px;
-    @media screen and (max-width: 1000px) {
+    margin-top: 80px;
+    @media screen and (max-width: 1013px) {
         margin-top: 200px;
         }
 `;
 
 const DevDiscordButton = styled.button`
-    background-color: #2DCDFF;
+    background-color: #ad4fff;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 20px;
@@ -72,10 +72,11 @@ const DevDiscordButton = styled.button`
     cursor: pointer;
     transition: .3s linear;
     border: 0px;
+    margin-top: 30px;
     &:hover{
         transform: rotateX(15deg);
-         box-shadow: 0px 15px 15px #00a8ff;
-        }
+        box-shadow: 0px 15px 15px #bb32f5;
+    }
 `;
 
 const GithubButton = styled.button`
@@ -83,20 +84,18 @@ const GithubButton = styled.button`
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 28px;
-    height: 85px;
+    height: 65px;
     width: 270px;
-    margin-top: 30px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.317));
     border-radius: 6px;
     outline: none;
     cursor: pointer;
     transition: .3s linear;
     border: 0px;
-
-        &:hover{
-            transform: rotateX(15deg);
-         box-shadow: 0px 15px 15px #e375e3;
-        }
+    &:hover{
+        transform: rotateX(15deg);
+        box-shadow: 0px 15px 15px #fa11fa;
+    }
 `;
 
 export default function OpenSource() {
@@ -112,8 +111,8 @@ export default function OpenSource() {
             </InnerLeftContainer>
             <InnerRightContainer>
                 <GitHub src={github} />
-                <a href={"https://discord.gg/T9GyMU3S"}><DevDiscordButton>Devs in Discord</DevDiscordButton></a>
                 <a href={"https://github.com/own-me"}><GithubButton >Visit our Github</GithubButton></a>
+                <a href={"https://discord.gg/T9GyMU3S"}><DevDiscordButton>Devs in Discord</DevDiscordButton></a>
             </InnerRightContainer>
         </PageContainer>
     );
