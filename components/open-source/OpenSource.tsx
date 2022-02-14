@@ -6,14 +6,11 @@ import github from "./../../media/github.svg"
 
 const PageContainer = styled.div`
     padding: 20px;
-    margin: 180px 0px 300px 0px;
+    margin: 180px 0px 200px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    @media screen and (max-width: 600px) {
-        margin: 180px 0px 200px 0px;
-        }
 `;
 
 const InnerLeftContainer = styled.div`
@@ -37,6 +34,9 @@ const BlueBanner = styled.div`
     width: 130%;
     z-index: -1;
     transform: rotate(-8deg);
+    @media screen and (max-width: 1013px) {
+        height: 1330px;
+        }
 `;
 
 const Title = styled.h2`
@@ -54,9 +54,6 @@ const Text = styled.div`
 const GitHub = styled.img`
     height: 300px;
     margin-top: 80px;
-    @media screen and (max-width: 1013px) {
-        margin-top: 200px;
-        }
 `;
 
 const DevDiscordButton = styled.button`
