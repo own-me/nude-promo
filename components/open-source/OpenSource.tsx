@@ -96,7 +96,7 @@ export default function OpenSource() {
             <InnerRightContainer>
                 <GitHub src={github} />
                 <a href={"https://github.com/own-me"}><DevDiscordButton>Devs in Discord</DevDiscordButton></a>
-                <GithubButton >Visit our Github</GithubButton>
+                <a href={"https://github.com/own-me"}><GithubButton >Visit our Github</GithubButton></a>
             </InnerRightContainer>
         </PageContainer>
     );
