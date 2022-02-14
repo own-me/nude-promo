@@ -12,10 +12,18 @@ const PageContainer = styled.div`
     justify-content: space-around;
 `;
 
-const InnerContainer = styled.div`
-  display: flex;
-  flex-direction: column; 
+const InnerLeftContainer = styled.div`
+    display: flex;
+    flex-direction: column; 
 `;
+
+const InnerRightContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+`;
+
 
 const BlueBanner = styled.div`
     background-color: #6AF6FF;
@@ -44,6 +52,20 @@ const GitHub = styled.img`
     margin-bottom: 100px;
 `;
 
+const DevDiscordButton = styled.button`
+    background-color: #2DCDFF;
+    color: white;
+    font-family: Poppins, Open Sans;
+    font-size: 20px;
+    height: 40px;
+    width: 225px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.495));
+    border: 0px;
+    &:hover{
+            border: 3px solid #269ADB
+        }
+`;
+
 const GithubButton = styled.button`
     background-color: #FF81EB;
     color: white;
@@ -52,36 +74,30 @@ const GithubButton = styled.button`
     height: 85px;
     width: 270px;
     margin-top: 20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.317));
     border: 0px;
-`;
 
-const DevDiscordButton = styled.button`
-    background-color: #2DCDFF;
-    color: white;
-    font-family: Poppins, Open Sans;
-    font-size: 20px;
-    height: 40px;
-    width: 225px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        &:hover{
+            border: 3px solid #269ADB
+        }
 `;
 
 export default function OpenSource() {
     return (
         <PageContainer>
             <BlueBanner />
-            <InnerContainer>
+            <InnerLeftContainer>
                 {
                     openSourceData.map(({ title, text }, index) => {
                         return <OpenSourceText title={title} text={text} key={index} />
                     })
                 }
-            </InnerContainer>
-            <InnerContainer style={{ alignItems: "center", justifyContent:"flex-end" }}>
+            </InnerLeftContainer>
+            <InnerRightContainer>
                 <GitHub src={github} />
-                <DevDiscordButton>Devs in Discord</DevDiscordButton>
-                <GithubButton>Visit our Github</GithubButton>
-            </InnerContainer>
+                <a href={"https://github.com/own-me"}><DevDiscordButton>Devs in Discord</DevDiscordButton></a>
+                <GithubButton >Visit our Github</GithubButton>
+            </InnerRightContainer>
         </PageContainer>
     );
 };
