@@ -6,7 +6,7 @@ const TextContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   max-width: 530px;
-  margin: 50px;
+  margin-top: 50px;
 `;
 
 const Title = styled.h2`
@@ -16,7 +16,6 @@ const Title = styled.h2`
     font-size: 48px;
     font-family: Yeseva One, Open Sans;
 `;
-
 
 const Text = styled.div`
     color: black;

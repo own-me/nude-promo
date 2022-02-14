@@ -10,20 +10,21 @@ const PageContainer = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 `;
 
 const InnerLeftContainer = styled.div`
     display: flex;
     flex-direction: column; 
+    justify-content: flex-start;
 `;
 
 const InnerRightContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 `;
-
 
 const BlueBanner = styled.div`
     background-color: #6AF6FF;
@@ -49,11 +50,14 @@ const Text = styled.div`
 
 const GitHub = styled.img`
     height: 300px;
-    margin-bottom: 145px;
+    margin-top: 150px;
 `;
 
 const DevDiscordButton = styled.button`
     background-color: #2DCDFF;
+    position: relative;
+    top: 200px;
+    left: 150px;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 20px;
@@ -61,6 +65,7 @@ const DevDiscordButton = styled.button`
     width: 225px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.495));
     border: 0px;
+    
     &:hover{
             border: 3px solid #269ADB
         }
@@ -68,6 +73,9 @@ const DevDiscordButton = styled.button`
 
 const GithubButton = styled.button`
     background-color: #FF81EB;
+    position: relative;
+    top: 200px;
+    left: 150px;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 28px;
