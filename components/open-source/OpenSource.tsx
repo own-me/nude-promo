@@ -2,9 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import OpenSourceText from "./OpenSourceText";
 import { openSourceData } from "./config";
+import bluebanner from "./../../media/bluebanner.svg"
 
 const PageContainer = styled.div`
-  
+ background-image: url(${bluebanner});
+ height: 635px;
+ padding: 80px;
 `;
 
 const Title = styled.h2`
