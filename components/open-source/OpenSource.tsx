@@ -53,7 +53,10 @@ const Text = styled.div`
 
 const GitHub = styled.img`
     height: 300px;
-    margin-top: 140px;
+    margin-top: 120px;
+    @media screen and (max-width: 1000px) {
+        margin-top: 200px;
+        }
 `;
 
 const DevDiscordButton = styled.button`
