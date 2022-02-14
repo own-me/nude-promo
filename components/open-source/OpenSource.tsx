@@ -6,7 +6,7 @@ import github from "./../../media/github.svg"
 
 const PageContainer = styled.div`
     padding: 20px;
-    margin: 180px 0px 300px 0px;
+    margin: 180px 0px 400px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -17,20 +17,20 @@ const InnerLeftContainer = styled.div`
     display: flex;
     flex-direction: column; 
     justify-content: flex-start;
+    margin-top: 100px;
 `;
 
 const InnerRightContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: flex-end; */
 `;
 
 const BlueBanner = styled.div`
     background-color: #6AF6FF;
     position: absolute;
-    height: 650px;
-    width: 120%;
+    height: 800px;
+    width: 130%;
     z-index: -1;
     transform: rotate(-8deg);
     left: -70px;
@@ -55,9 +55,6 @@ const GitHub = styled.img`
 
 const DevDiscordButton = styled.button`
     background-color: #2DCDFF;
-    position: relative;
-    top: 200px;
-    left: 150px;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 20px;
@@ -73,9 +70,6 @@ const DevDiscordButton = styled.button`
 
 const GithubButton = styled.button`
     background-color: #FF81EB;
-    position: relative;
-    top: 200px;
-    left: 150px;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 28px;
