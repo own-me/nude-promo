@@ -3,20 +3,24 @@ import styled from "styled-components";
 
 const TextContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 530px;
 `;
 
 const Title = styled.h2`
     color: black;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 48px;
+    font-family: Yeseva One, Open Sans;
 `;
 
 
 const Text = styled.div`
     color: black;
-    font-size: 20px;
+    font-size: 26px;
+    font-family: Roboto, sans-serif;
 `;
 
 interface OpenSourceTextProperties {
