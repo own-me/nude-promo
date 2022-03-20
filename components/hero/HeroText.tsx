@@ -64,7 +64,7 @@ export default function HeroText() {
             <MainText>
                 Buy, trade, sell, view and promote your hottest digital <FancyTextAssets>"assets"</FancyTextAssets> as <FancyTextNFTs>NFTs</FancyTextNFTs>
             </MainText>
-            <SubText>Our home for <Colored1>adult content </Colored1>in the <Colored2>web3 metaverse.</Colored2></SubText>
+            <SubText>Our home for <Colored1>adult content </Colored1>in the <Colored2>web3 metaverse</Colored2></SubText>
         </HeroTextContainer>
     );
 };
