@@ -7,12 +7,12 @@ const TextContainer = styled.div`
   align-items: flex-start;
   max-width: 530px;
   margin-top: 50px;
+  color: white;
 `;
 
 const Title = styled.h2`
-    color: black;
     margin-bottom: 40px;
-    font-size: 48px;
+    font-size: 50px;
     font-family: Yeseva One, Open Sans;
     @media screen and (max-width: 1200px) {
         font-size: 40px;
@@ -24,7 +24,6 @@ const Title = styled.h2`
 `;
 
 const Text = styled.div`
-    color: black;
     font-size: 26px;
     font-family: Roboto, sans-serif;
     @media screen and (max-width: 1200px) {

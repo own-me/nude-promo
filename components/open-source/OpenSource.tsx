@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import OpenSourceText from "./OpenSourceText";
 import { openSourceData } from "./config";
-import github from "./../../media/github.svg"
+import github from "../../media/github.svg"
+import { socialLinks } from "../../constants";
 
 const PageContainer = styled.div`
-    padding: 20px;
-    margin: 180px 0px 200px 0px;
+    margin: 75px 0px 215px 0px;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -17,81 +18,76 @@ const InnerLeftContainer = styled.div`
     display: flex;
     flex-direction: column; 
     justify-content: flex-start;
-    margin-top: 100px;
+    padding-top: 50px;
 `;
 
 const InnerRightContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;
+    justify-content: center;
+    padding-top: 155px;
+
+    @media screen and (max-width: 1046px) {
+        padding-top: 100px;
+    }
 `;
 
 const BlueBanner = styled.div`
-    background-color: #6af6ffbf;
+    background-color: #000632bf;
     position: absolute;
-    height: 800px;
+    height: 850px;
     width: 130%;
     z-index: -1;
-    transform: rotate(-8deg);
-    @media screen and (max-width: 1013px) {
-        height: 1330px;
-        }
-`;
-
-const Title = styled.h2`
-    color: black;
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 30px;
-`;
-
-const Text = styled.div`
-    color: black;
-    font-size: 20px;
+    transform: rotate(3deg);
+    @media screen and (max-width: 1046px) {
+        height: 1250px;
+    }
 `;
 
 const GitHub = styled.img`
-    height: 300px;
-    margin-top: 80px;
+    height: 400px;
+
+    @media screen and (max-width: 1046px) {
+        height: 275px;
+    }
 `;
 
-const DevDiscordButton = styled.button`
-    background-color: #ad4fff;
-    color: white;
-    font-family: Poppins, Open Sans;
-    font-size: 20px;
-    height: 40px;
-    width: 225px;
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.495));
-    border-radius: 6px;
-    outline: none;
+const Button = styled.button`
+    margin-top: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 5px;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 15px 0 rgba(0,0,0,.1);
     cursor: pointer;
-    transition: .3s linear;
-    border: 0px;
-    margin-top: 30px;
-    &:hover{
-        transform: rotateX(15deg);
-        box-shadow: 0px 15px 15px #bb32f5;
+    border: none;
+    background-image: linear-gradient(135deg,#40b3ff 0%,#4c15ff 51%,#1574ff 100%);
+
+    :hover{
+        background-position: right center;
     }
 `;
 
 const GithubButton = styled.button`
-    background-color: #FF81EB;
+    background-color: #222222;
     color: white;
     font-family: Poppins, Open Sans;
     font-size: 28px;
     height: 65px;
     width: 270px;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.317));
     border-radius: 6px;
     outline: none;
     cursor: pointer;
     transition: .3s linear;
     border: 0px;
+    margin-top: 25px;
+
     &:hover{
-        transform: rotateX(15deg);
-        box-shadow: 0px 15px 15px #fa11fa;
+        background-color: #333333;
     }
 `;
 
@@ -108,8 +104,8 @@ export default function OpenSource() {
             </InnerLeftContainer>
             <InnerRightContainer>
                 <GitHub src={github} />
-                <a href={"https://github.com/own-me"}><GithubButton >Visit our Github</GithubButton></a>
-                <a href={"https://discord.gg/T9GyMU3S"}><DevDiscordButton>Devs in Discord</DevDiscordButton></a>
+                <a href={"https://github.com/own-me"} target="_blank"><GithubButton>Read our Code</GithubButton></a>
+                <a href={socialLinks.discord.url} target="_blank"><Button>Chat with Devs</Button></a>
             </InnerRightContainer>
         </PageContainer>
     );
