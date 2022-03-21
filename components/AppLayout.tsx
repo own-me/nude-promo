@@ -5,7 +5,6 @@ const AppLayoutContainer = styled.div`
     padding: 50px 20%;
     min-height: 100%;
     color: #2A2825;
-
     @media screen and (max-width: 2000px) {
         padding: 40px 5%;
     }    

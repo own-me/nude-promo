@@ -17,6 +17,7 @@ import Funding from "./components/funding/Funding";
 import CreatorProfiles from "./components/creator-profiles/CreatorProfiles";
 import BuiltWith from "./components/built-with/BuiltWith";
 import Moderation from "./components/moderation/Moderation";
+import OpenSource from "./components/open-source/OpenSource";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                 <Tokenomics />
                 <Roadmap />
                 <Moderation />
+                <OpenSource />
                 <Team />
                 <BuiltWith />
                 <Funding />
