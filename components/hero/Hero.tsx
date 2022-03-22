@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HeroButton from "./HeroButton";
 import HeroText from "./HeroText";
-import bitch from "../../media/bitch.png";
+import lolipopGirl from "../../media/lolipop-girl.png";
 import banner from "../../media/banner.png";
 
 const HeroContainer = styled.div`
@@ -58,9 +58,9 @@ export default function Hero() {
     return (
         <HeroContainer>
             <HeroText />
-            <HeroImageMobile src={bitch} />
+            <HeroImageMobile src={lolipopGirl} />
             <HeroButton />
-            <HeroImage src={bitch} />
+            <HeroImage src={lolipopGirl} />
             <HeroBannerImage src={banner} />
         </HeroContainer>
     );
