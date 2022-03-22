@@ -5,6 +5,6 @@ export const openSourceData = [
     },
     {
         title: "Decentralized-ish",
-        text: "We use IPFS to host creators NFT content and use the Etherum blockchain for our finances. We do use AWS for some API servers and databases currently."
+        text: "We use IPFS to host creators NFT content and use the Ethereum blockchain for our finances. We do use AWS for some API servers and databases currently."
     }
 ];
