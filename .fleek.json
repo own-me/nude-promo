@@ -1,0 +1,8 @@
+{
+    "build": {
+        "image": "node:16",
+        "command": "npm install && npm run build",
+        "publicDir": "build",
+        "baseDir": "./"
+    }
+}
