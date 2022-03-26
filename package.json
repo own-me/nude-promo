@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Promotional landing page for the Own Me company and NUDE token.",
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "dev": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js"
@@ -15,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/own-me/promo/issues"
   },
-  "homepage": "https://github.com/own-me/promo",
   "dependencies": {
     "@fontsource/poppins": "^4.5.3",
     "@fontsource/rock-salt": "^4.5.3",
