@@ -4,20 +4,20 @@ import "@fontsource/rock-salt";
 import "@fontsource/yeseva-one";
 import "@fontsource/poppins";
 import "@fontsource/shadows-into-light";
-import TopNav from "./components/nav/TopNav";
+import TopNav from "./sections/nav/TopNav";
 import AppLayout from "./components/AppLayout";
-import Hero from "./components/hero/Hero";
-import FeatureCards from "./components/feature-cards/FeatureCards";
+import Hero from "./sections/hero/Hero";
+import FeatureCards from "./sections/feature-cards/FeatureCards";
 import Footer from "./components/Footer";
-import Tokenomics from "./components/tokenomics/Tokenomics";
-import Roadmap from "./components/roadmap/Roadmap";
-import MainFeatures from "./components/main-features/MainFeatures";
-import Team from "./components/team/Team";
-import Funding from "./components/funding/Funding";
-import CreatorProfiles from "./components/creator-profiles/CreatorProfiles";
-import BuiltWith from "./components/built-with/BuiltWith";
-import Moderation from "./components/moderation/Moderation";
-import OpenSource from "./components/open-source/OpenSource";
+import Tokenomics from "./sections/tokenomics/Tokenomics";
+import Roadmap from "./sections/roadmap/Roadmap";
+import MainFeatures from "./sections/main-features/MainFeatures";
+import Team from "./sections/team/Team";
+import Funding from "./sections/funding/Funding";
+import CreatorProfiles from "./sections/creator-profiles/CreatorProfiles";
+import BuiltWith from "./sections/built-with/BuiltWith";
+import Moderation from "./sections/moderation/Moderation";
+import OpenSource from "./sections/open-source/OpenSource";
 
 function App() {
     return (
