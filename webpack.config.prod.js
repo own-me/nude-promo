@@ -8,7 +8,7 @@ module.exports = {
     devtool: "source-map",
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'own-me-promo.bundle.prod.js',
+        filename: 'own-me-promo.bundle.js',
     },
     module: {
         rules: [
