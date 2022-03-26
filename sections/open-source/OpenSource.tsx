@@ -37,10 +37,10 @@ const BlueBanner = styled.div`
     background-color: #000632bf;
     position: absolute;
     height: 850px;
-    width: 130%;
+    width: 100%;
     z-index: -1;
-    transform: rotate(3deg);
-    @media screen and (max-width: 1046px) {
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 93%);
+    @media screen and (max-width: 894px) {
         height: 1250px;
     }
 `;
