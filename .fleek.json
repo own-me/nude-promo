@@ -1,7 +1,7 @@
 {
     "build": {
         "image": "node:16",
-        "command": "npm install && npm run build && ls -l",
+        "command": "npm install && ls -l",
         "baseDir": "/",
         "publicDir": "dist"
     }
