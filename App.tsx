@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import "@fontsource/rock-salt";
 import "@fontsource/yeseva-one";
 import "@fontsource/poppins";
@@ -41,4 +41,7 @@ function App() {
     );
 };
 
-ReactDOM.render(<App />, document.getElementById('react-container'));
+const container = document.getElementById("react-container");
+if (container) {
+    createRoot(container).render(<App />);
+}
