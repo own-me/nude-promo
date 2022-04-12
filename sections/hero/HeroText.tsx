@@ -56,7 +56,7 @@ const SubText = styled.div`
         margin: 10px 0px;
     }
     @media screen and (max-width: 420px) {
-        font-size: 18px;
+        font-size: 23px;
         margin: 5px 0px;
     }
 `;
