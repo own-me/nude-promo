@@ -64,9 +64,9 @@ export const socialLinks: Record<string, socialLink> = {
         title: "Telegram",
         url: "https://t.me/own_me_nft"
     },
-    // matrix: {
-    //     key: "matrix",
-    //     title: "Matrix",
-    //     url: "_"
-    // }
+    testnet: {
+        key: "testnet",
+        title: "TestNet",
+        url: "https://app.ownme.io/#/login"
+    }
 };
