@@ -7,7 +7,7 @@ import banner from "../../media/banner.png";
 import TestNetButton from "./TestNetButton";
 
 const HeroContainer = styled.div`
-    margin: 7vh 50px 50px 0px;
+    margin: 7vh 50px 50px 50px;
     height: calc(100% - 50px);
     @media screen and (max-width: 1200px) {
         margin: 10px 0px 0px 0px;
@@ -25,7 +25,6 @@ const HeroImage = styled.img`
     width: 25%;
     top: 25%;
     right: 10%;
-
     @media screen and (max-width: 1200px) {
         display: none;
     }
