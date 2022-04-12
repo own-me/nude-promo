@@ -43,7 +43,7 @@ const HeroBannerImage = styled.img`
     @media screen and (max-width: 600px) {
         bottom: 20%;
     }
-    @media(min-height: 650px) and (max-height:950px) {
+    @media(min-height: 650px) and (max-height:800px) {
         bottom: -33%; 
     }
 `;

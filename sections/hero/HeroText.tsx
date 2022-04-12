@@ -26,8 +26,8 @@ const MainText = styled.div`
         font-size: 26px;
         margin: 5px 0px;
     }
-    @media(min-height:700px) and (max-height:950px) {
-        font-size: 40px; 
+    @media(min-height:650px) and (max-height:800px) {
+        font-size: 30px; 
     }
 `;
 
