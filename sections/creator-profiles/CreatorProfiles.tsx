@@ -12,7 +12,6 @@ const CardGrid = styled.div`
     display: flex;
     flex-wrap: wrap;
     padding: 75px;
-
     @media screen and (max-width: 600px) {
         padding: 10px;
     }
