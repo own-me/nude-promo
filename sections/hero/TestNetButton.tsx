@@ -44,7 +44,7 @@ const Link = styled.a`
 export default function TestNetButton() {
     return (
         <Button>
-            <Link href={socialLinks.testnet.url} target="_blank">Launch TestNet </Link>
+            <Link href={socialLinks.testnet.url} target="_blank">Launch TestNet</Link>
         </Button>
     );
 };
