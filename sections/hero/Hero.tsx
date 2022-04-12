@@ -9,7 +9,6 @@ import TestNetButton from "./TestNetButton";
 const HeroContainer = styled.div`
     margin: 7vh 50px 50px 0px;
     height: calc(100% - 50px);
-
     @media screen and (max-width: 1200px) {
         margin: 10px 0px 0px 0px;
         text-align: center;
@@ -44,7 +43,7 @@ const HeroBannerImage = styled.img`
     @media screen and (max-width: 600px) {
         bottom: 20%;
     }
-    @media(min-height:700px) and (max-height:950px) {
+    @media(min-height: 650px) and (max-height:950px) {
         bottom: -33%; 
     }
 `;
