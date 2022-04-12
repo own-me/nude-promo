@@ -67,6 +67,6 @@ export const socialLinks: Record<string, socialLink> = {
     testnet: {
         key: "testnet",
         title: "TestNet",
-        url: "https://app.ownme.io/#/login"
+        url: "https://app.ownme.io/"
     }
 };
