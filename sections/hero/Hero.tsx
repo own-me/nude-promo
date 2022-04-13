@@ -42,8 +42,8 @@ const HeroBannerImage = styled.img`
     @media screen and (max-width: 600px) {
         bottom: 20%;
     }
-    @media(min-height: 650px) and (max-height:800px) {
-        bottom: -33%; 
+    @media(min-height: 300px) and (max-height:800px) {
+        bottom: -57%; 
     }
 `;
 
@@ -53,11 +53,11 @@ const HeroImageMobile = styled.img`
         display: none;
     }
     @media screen and (max-width: 1200px) {
-        width: 27vh;
+        width: 38vh;
         margin: 0px 70px 0px 70px;
     }
-    @media screen and (max-width: 600px) {
-        width: 27vh;
+    @media screen and (max-width: 500px) {
+        width: 28vh;
         margin: 0px;
     }
 `;

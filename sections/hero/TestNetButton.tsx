@@ -33,6 +33,9 @@ const Button = styled.button`
          margin: 3px;
          width: 70%;
      }
+     @media(max-width:400px)  {
+        font-size: 12px;
+    }
 `;
 
 const Link = styled.a`
