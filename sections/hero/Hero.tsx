@@ -73,6 +73,7 @@ const HeroImageMobile = styled.img`
     @media screen and (min-width: 1200px) {
         display: none;
     }
+    
     @media screen and (max-width: 1200px) {
         width: 29vh;
     }

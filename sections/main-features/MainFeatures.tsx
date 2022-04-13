@@ -17,6 +17,7 @@ const MainFeaturesHeader = styled.div`
     @media screen and (max-width: 1200px) {
         font-size: 45px;
     }
+    
     @media screen and (max-width: 600px) {
         font-size: 32px;
         text-align: center;
