@@ -4,6 +4,7 @@ import styled from "styled-components";
 const HeroTextContainer = styled.div`
     max-width: 765px;
     margin-bottom: 20px;
+
     @media screen and (max-width: 1200px) {
         max-width: 100%;
     }
@@ -15,17 +16,21 @@ const MainText = styled.div`
     line-height: 2.0;
     letter-spacing: 2.0;
     margin: 20px 0px;
+
     @media screen and (max-width: 1200px) {
         font-size: 40px;
     }
+
     @media screen and (max-width: 600px) {
         font-size: 32px;
         margin: 5px 0px;
     }
+
     @media screen and (max-width: 420px) {
         font-size: 26px;
         margin: 5px 0px;
     }
+
     @media(min-height:650px) and (max-height:800px) {
         font-size: 30px; 
     }
@@ -51,10 +56,12 @@ const SubText = styled.div`
         font-size: 28px;
         margin: 20px 0px;
     }
+
     @media screen and (max-width: 600px) {
         font-size: 25px;
         margin: 10px 0px;
     }
+
     @media screen and (max-width: 420px) {
         font-size: 23px;
         margin: 5px 0px;
@@ -69,7 +76,7 @@ const Colored2 = styled.span`
     color: #4B48FD;
 `;
 
-export default function HeroText() {    
+export default function HeroText() {
     return (
         <HeroTextContainer>
             <MainText>
