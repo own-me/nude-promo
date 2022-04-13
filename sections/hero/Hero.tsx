@@ -4,19 +4,18 @@ import HeroButton from "./HeroButton";
 import HeroText from "./HeroText";
 import lolipopGirl from "../../media/lolipop-girl.png";
 import banner from "../../media/banner.png";
+import TestNetButton from "./TestNetButton";
 
 const HeroContainer = styled.div`
-    margin: 7vh 50px 50px 0px;
+    margin: 7vh 50px 50px 50px;
     height: calc(100% - 50px);
-
     @media screen and (max-width: 1200px) {
-        margin: 60px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         text-align: center;
         height: calc(100vh - 130px);
     }
     @media screen and (max-width: 600px) {
         padding: 10px 2%;
-        margin: 10px 0px 0px 0px;
         height: calc(100% - 60px);
     }
 `;
@@ -26,7 +25,6 @@ const HeroImage = styled.img`
     width: 25%;
     top: 25%;
     right: 10%;
-
     @media screen and (max-width: 1200px) {
         display: none;
     }
@@ -38,9 +36,14 @@ const HeroBannerImage = styled.img`
     right: 0;
     bottom: -20%;
     z-index: -2;
-
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1400px) {
+        bottom: 10%;
+    }
+    @media screen and (max-width: 600px) {
         bottom: 20%;
+    }
+    @media(min-height: 650px) and (max-height:800px) {
+        bottom: -33%; 
     }
 `;
 
@@ -50,7 +53,12 @@ const HeroImageMobile = styled.img`
         display: none;
     }
     @media screen and (max-width: 1200px) {
-        width: 25vh;
+        width: 27vh;
+        margin: 0px 70px 0px 70px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 27vh;
+        margin: 0px;
     }
 `;
 
@@ -58,8 +66,9 @@ export default function Hero() {
     return (
         <HeroContainer>
             <HeroText />
-            <HeroImageMobile src={lolipopGirl} />
             <HeroButton />
+            <TestNetButton />
+            <HeroImageMobile src={lolipopGirl} />
             <HeroImage src={lolipopGirl} />
             <HeroBannerImage src={banner} />
         </HeroContainer>

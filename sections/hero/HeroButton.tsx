@@ -4,8 +4,8 @@ import { socialLinks } from "../../constants";
 import discordIcon from "../../media/icons/discord/inverted.svg";
 
 const Button = styled.button`
-    margin: 5px;
-    padding: 10px 25px;
+    margin: 10px;
+    padding: 15px 25px;
     text-align: center;
     transition: all 0.5s ease-out;
     font-size: 20px;
@@ -16,19 +16,22 @@ const Button = styled.button`
     cursor: pointer;
     border: none;
     background-image: linear-gradient(135deg,#9240ff 0%,#d500ff 51%,#1574ff 100%);
-
+    letter-spacing: 0.8;
+    font-family: Poppins, Open Sans;
     :hover{
         background-position: right center;
         font-size: 21px;
     }
-
     @media screen and (max-width: 1200px) {
-         margin-top: 30px;
-         width: 100%;
+        font-size: 22px;
+        width: 100%;
+    :hover{
+        font-size: 23px;
+        background-position: right center;
+    }
      }
      @media screen and (max-width: 600px) {
          margin-top: 5px;
-         font-size: 18px;
      }
 `;
 

@@ -19,8 +19,15 @@ const MainText = styled.div`
         font-size: 40px;
     }
     @media screen and (max-width: 600px) {
+        font-size: 32px;
+        margin: 5px 0px;
+    }
+    @media screen and (max-width: 420px) {
         font-size: 26px;
         margin: 5px 0px;
+    }
+    @media(min-height:650px) and (max-height:800px) {
+        font-size: 30px; 
     }
 `;
 
@@ -41,12 +48,16 @@ const SubText = styled.div`
     letter-spacing: 3px;
 
     @media screen and (max-width: 1200px) {
-        font-size: 30px;
+        font-size: 28px;
         margin: 20px 0px;
     }
     @media screen and (max-width: 600px) {
-        font-size: 18px;
+        font-size: 25px;
         margin: 10px 0px;
+    }
+    @media screen and (max-width: 420px) {
+        font-size: 23px;
+        margin: 5px 0px;
     }
 `;
 

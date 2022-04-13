@@ -4,6 +4,9 @@ import { mainFeatures } from "./config";
 import Feature from "./Feature";
 
 const MainFeaturesContainer = styled.div`
+  @media(min-height:600px) and (max-height:800px) {
+       margin-top: 350px;
+    }
 `;
 
 const MainFeaturesHeader = styled.div`
@@ -11,7 +14,6 @@ const MainFeaturesHeader = styled.div`
     font-size: 70px;
     line-height: 2.0;
     letter-spacing: 2.0;
-
     @media screen and (max-width: 1200px) {
         font-size: 45px;
     }
