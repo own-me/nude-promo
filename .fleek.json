@@ -1,8 +1,0 @@
-{
-    "build": {
-        "image": "node:16",
-        "command": "exit 0",
-        "baseDir": "/",
-        "publicDir": "dist"
-    }
-}
