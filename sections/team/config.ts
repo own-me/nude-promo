@@ -1,6 +1,7 @@
 import chrisImage from "../../media/team/chris.jpg";
 import sylviaImage from "../../media/team/sylvia.jpg";
 import tobiImage from "../../media/team/tobi.jpg";
+import weiyan from "../../media/team/weiyan.jpeg";
 import githubIcon from "../../media/icons/github/black.svg";
 import linkedinIcon from "../../media/icons/linkedin/black.svg";
 import twitterIcon from "../../media/icons/twitter/black.svg";
@@ -47,6 +48,18 @@ export const teamData = [
         ]
     },
     {
+        name: "Wei Yan",
+        image: weiyan,
+        title: "Full-Stack Web3 Engineer",
+        color: "#95ffeb",
+        socials: [
+            {
+                icon: githubIcon,
+                url: "https://github.com/imwaynewy"
+            },
+        ]
+    },
+    {
         name: "Tobi Trimboli",
         image: tobiImage,
         title: "Head of Security | Pussy Inspector",
@@ -61,9 +74,9 @@ export const missingTeamData = [
     {
         title: "Lead Dev Ops / Backend Engineer "
     },
-    {
-        title: "Lead Content Creator / Video Artist"
-    },
+    // {
+    //     title: "Lead Content Creator / Video Artist"
+    // },
     {
         title: "Lead of Business / Finance"
     },
