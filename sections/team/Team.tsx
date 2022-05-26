@@ -35,36 +35,23 @@ const TeamGrid = styled.div`
     }
 `;
 
-const TeamMissingGrid = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
-    padding: 0px 0px 50px 0px;
-    
-    @media screen and (max-width: 600px) {
-        padding: 0px 0px 20px 0px;
-    }
-`;
-
 export default function Team() {
     return (
         <TeamContainer id="team">
             <TeamHeader>Our Team</TeamHeader>
+
             <TeamGrid>
                 {
                     teamData.map(({ name, image, title, color, socials }, index) => {
                         return <TeamProfile name={name} image={image} title={title} color={color} key={index} socials={socials} />
                     })
                 }
-            </TeamGrid>
-            <TeamMissingGrid>
                 {
                     missingTeamData.map(({ title }, index) => {
                         return <TeamMissing title={title} key={index} />
                     })
                 }
-            </TeamMissingGrid>
+            </TeamGrid>
         </TeamContainer>
     );
 };

@@ -8,25 +8,17 @@ const ProfileContainer = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 30px;
-
-    @media screen and (max-width: 600px) {
-        margin: 35px 0px;
-    }
+    margin: 10px;
 `;
 
 const ProfileImage = styled.img<{ $color: string }>`
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     border: 8px solid ${props => props.$color};
     margin-bottom: 20px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     
-    @media screen and (max-width: 600px) {
-        height: 200px;
-        width: 200px;
-    }
 `;
 
 const ProfileTextContainer = styled.div`
@@ -54,6 +46,26 @@ const ProfileSocialIcon = styled.img`
     padding: 12px;
     height: 22px;
 `;
+
+const MissingImage = styled.img`
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 8px solid grey;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+`;
+
+const TextContainer = styled.div`
+
+`;
+
+const LookingFor = styled.div`
+    font-family: Yeseva One, Open Sans;
+    font-size: 22px;
+    margin-bottom: 5px;
+`;
+
 
 export default function TeamProfile({ name, image, title, color, socials = [] }) {
     return (

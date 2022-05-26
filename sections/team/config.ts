@@ -74,9 +74,9 @@ export const missingTeamData = [
     {
         title: "Lead Dev Ops / Backend Engineer "
     },
-    // {
-    //     title: "Lead Content Creator / Video Artist"
-    // },
+    {
+        title: "Lead Content Creator / Video Artist"
+    },
     {
         title: "Lead of Business / Finance"
     },
