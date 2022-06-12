@@ -13,18 +13,13 @@ export const navItems: Array<navItem> = [
         title: "$NUDE"
     },
     {
+        key: "testnet",
+        title: "Testnet"
+    },
+    {
         key: "team",
-        title: "Team"
+        title: "Our Team"
     },
-    {
-        key: "funding",
-        title: "Funding"
-    },
-    {
-        key: "getInvolved",
-        title: "Get Involved"
-    },
-
 ];
 
 interface socialLink {

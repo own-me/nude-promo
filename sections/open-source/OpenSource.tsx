@@ -42,6 +42,7 @@ const BlueBanner = styled.div`
     clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 93%);
     @media screen and (max-width: 894px) {
         height: 1250px;
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
     }
 `;
 

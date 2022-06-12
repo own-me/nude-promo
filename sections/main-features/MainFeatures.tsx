@@ -4,7 +4,7 @@ import { mainFeatures } from "./config";
 import Feature from "./Feature";
 
 const MainFeaturesContainer = styled.div`
-  @media(min-height:600px) and (max-height:800px) {
+    @media(min-height:600px) and (max-height:800px) {
        margin-top: 350px;
     }
 `;
@@ -20,6 +20,7 @@ const MainFeaturesHeader = styled.div`
     @media screen and (max-width: 600px) {
         font-size: 32px;
         text-align: center;
+        padding-top: 55px;
     }
 `;
 

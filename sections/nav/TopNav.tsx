@@ -52,16 +52,12 @@ export default function TopNav() {
                 elem = document.getElementById('tokenomics');
                 break;
             }
-            case 'Team': {
+            case 'Testnet': {
+                window.location.href = "https://app.ownme.io/";
+                break;
+            }
+            case 'Our Team': {
                 elem = document.getElementById('team');
-                break;
-            }
-            case 'Funding': {
-                elem = document.getElementById('funding');
-                break;
-            }
-            case 'Get Involved': {
-                elem = document.getElementById('footer');
                 break;
             }
             default: {

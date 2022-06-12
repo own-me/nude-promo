@@ -34,7 +34,7 @@ function App() {
                 <OpenSource />
                 <Team />
                 <BuiltWith />
-                <Funding />
+                {/* <Funding /> */}
             </AppLayout>
             <Footer />
         </>
